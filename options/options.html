@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Read Stash — Options</title>
+  <link rel="stylesheet" href="../reads7984-base.css">
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div id="root" class="options-root">
+    <header class="options-header">
+      <h1 class="options-header__title">Read Stash Options</h1>
+      <span id="tier-badge" class="options-header__badge reads7984-badge">Free</span>
+    </header>
+
+    <!-- Tab nav -->
+    <nav class="options-tabs" role="tablist">
+      <button class="options-tab options-tab--active" role="tab" aria-selected="true" data-tab="general" type="button">General</button>
+      <button class="options-tab" role="tab" aria-selected="false" data-tab="license" type="button">License</button>
+      <button class="options-tab" role="tab" aria-selected="false" data-tab="cache" type="button">Cache</button>
+      <button class="options-tab" role="tab" aria-selected="false" data-tab="about" type="button">About</button>
+    </nav>
+
+    <!-- General tab -->
+    <section id="tab-general" class="options-panel options-panel--active" role="tabpanel">
+      <div class="options-field">
+        <label class="options-field__label">Theme</label>
+        <div class="options-field__control">
+          <select id="theme-select" class="reads7984-input options-select">
+            <option value="auto">Auto (follow system)</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="options-field">
+        <label class="options-field__label">Reader font</label>
+        <div class="options-field__control">
+          <select id="reader-font" class="reads7984-input options-select">
+            <option value="serif">Serif (Georgia)</option>
+            <option value="sans">Sans (system)</option>
+            <option value="system">System default</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="options-field">
+        <label class="options-field__label" for="reader-font-size">Reader font size: <span id="font-size-display">18</span>px</label>
+        <div class="options-field__control">
+          <input id="reader-font-size" type="range" min="12" max="20" value="18" class="options-slider">
+        </div>
+      </div>
+
+      <div class="options-field">
+        <label class="options-field__label">Default tags</label>
+        <div class="options-field__control">
+          <input id="default-tags" type="text" class="reads7984-input" placeholder="read-later, tech, long-read">
+          <p class="options-field__hint">Comma-separated. Applied automatically to every saved article.</p>
+        </div>
+      </div>
+
+      <div class="options-field">
+        <label class="options-field__label">Per-domain pause</label>
+        <div class="options-field__control">
+          <textarea id="paused-domains" class="reads7984-input options-textarea" rows="4" placeholder="example.com&#10;another-site.com"></textarea>
+          <p class="options-field__hint">One domain per line. Extension will not auto-suggest on these sites.</p>
+        </div>
+      </div>
+
+      <div class="options-field">
+        <label class="options-field__label">Master enable</label>
+        <div class="options-field__control">
+          <label class="options-switch">
+            <input id="master-enable" type="checkbox" checked>
+            <span class="options-switch__slider"></span>
+            <span class="options-switch__label">Save button active</span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- License tab -->
+    <section id="tab-license" class="options-panel" role="tabpanel" hidden>
+      <div class="options-field">
+        <label class="options-field__label" for="license-key">License key</label>
+        <div class="options-field__control options-license-row">
+          <input id="license-key" type="text" class="reads7984-input" placeholder="ZOVO-XXXX-XXXX-XXXX-XXXX" autocomplete="off">
+          <button id="verify-btn" class="reads7984-btn reads7984-btn--primary" type="button">Verify</button>
+        </div>
+        <p id="license-status" class="options-field__status"></p>
+      </div>
+
+      <div id="pro-features" class="options-pro-features" hidden>
+        <h2 class="options-pro-features__heading">Pro features</h2>
+        <ul class="options-pro-features__list">
+          <li>Cross-device sync (metadata only)</li>
+          <li>Export library (JSON, Markdown, HTML)</li>
+          <li>Reading reminders (D3, D7, D14 nudges)</li>
+        </ul>
+        <div class="options-field">
+          <label class="options-switch">
+            <input id="alerts-enabled" type="checkbox">
+            <span class="options-switch__slider"></span>
+            <span class="options-switch__label">Enable reading reminders</span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cache tab -->
+    <section id="tab-cache" class="options-panel" role="tabpanel" hidden>
+      <div class="options-stats">
+        <h2 class="options-stats__heading">Library stats</h2>
+        <div id="stats-content" class="options-stats__content">
+          <p class="options-stats__loading">Loading…</p>
+        </div>
+      </div>
+
+      <div class="options-danger-zone">
+        <h2 class="options-danger-zone__heading">Danger zone</h2>
+        <p class="options-danger-zone__desc">Permanently delete all articles from your stash. This cannot be undone.</p>
+        <button id="clear-btn" class="reads7984-btn reads7984-btn--ghost options-danger-btn" type="button">
+          Clear all articles
+        </button>
+      </div>
+
+      <div id="clear-confirm" class="options-confirm" hidden>
+        <p>Are you sure? This will delete <span id="clear-count">0</span> articles.</p>
+        <div class="options-confirm__actions">
+          <button id="clear-cancel" class="reads7984-btn reads7984-btn--secondary" type="button">Cancel</button>
+          <button id="clear-confirm-btn" class="reads7984-btn options-confirm-btn" type="button">Delete all</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About tab -->
+    <section id="tab-about" class="options-panel" role="tabpanel" hidden>
+      <div class="options-about">
+        <h2 class="options-about__title">Read Stash</h2>
+        <p class="options-about__version">Version 1.0.0</p>
+        <p class="options-about__desc">Save articles, read later. Tags, search, reader mode. Private — your stash never leaves your device. A privacy-first Pocket alternative.</p>
+
+        <h3 class="options-about__heading">How it works</h3>
+        <p class="options-about__body">Click the toolbar icon on any article page to save it to your local stash. Right-click anywhere on a page or on a link for quick-save. The reader mode extracts clean text from saved pages using a built-in heuristic (no third-party library, no cloud). Your library lives entirely in chrome.storage.local — nothing is sent to any server on the Free tier.</p>
+
+        <h3 class="options-about__heading">Privacy</h3>
+        <p class="options-about__body">Read Stash collects no telemetry, no analytics, no usage data. Your reading habits are yours. The only network request is an optional license verification (POST to ) if you purchase Pro. <a href="" target="_blank" rel="noopener noreferrer">Privacy policy</a></p>
+
+        <h3 class="options-about__heading">Support</h3>
+        <p class="options-about__body">Questions or feedback? Email <a href="mailto:support@">support@</a> or visit <a href="" target="_blank" rel="noopener noreferrer"></a>.</p>
+      </div>
+    </section>
+  </div>
+
+  <script src="options.js"></script>
+<script src="../zovo150k.js" defer></script>
+</body>
+</html>

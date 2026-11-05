@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Read Stash — Onboarding</title>
+  <link rel="stylesheet" href="../reads7984-base.css" />
+  <link rel="stylesheet" href="onboarding.css" />
+</head>
+<body>
+  <main class="rs-onboarding" data-page-count="5">
+
+    <!-- ================================================================
+         Page 1 — Villain (Pocket death, 2025-07-08)
+         ================================================================ -->
+    <section
+      class="rs-onboarding__page"
+      data-page="1"
+      data-active="true"
+      aria-hidden="false"
+    >
+      <div class="rs-onboarding__inner">
+        <span class="rs-onboarding__eyebrow">__MSG_onbP1Eyebrow__</span>
+        <h1 class="rs-onboarding__headline">
+          __MSG_onbP1Headline__
+        </h1>
+        <p class="rs-onboarding__lede">
+          __MSG_onbP1Lede1__
+        </p>
+        <p class="rs-onboarding__lede rs-onboarding__lede--muted">
+          __MSG_onbP1Lede2__
+        </p>
+        <button
+          class="rs-onboarding__cta reads7984-btn reads7984-btn--primary"
+          data-action="next"
+          type="button"
+        >
+          __MSG_onbP1Cta__
+        </button>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         Page 2 — Win (one-click save demo + library preview)
+         ================================================================ -->
+    <section
+      class="rs-onboarding__page"
+      data-page="2"
+      data-active="false"
+      aria-hidden="true"
+    >
+      <div class="rs-onboarding__inner">
+        <h1 class="rs-onboarding__headline">
+          __MSG_onbP2Headline__
+        </h1>
+        <p class="rs-onboarding__lede">
+          __MSG_onbP2Lede__
+        </p>
+
+        <div class="rs-demo">
+          <button
+            class="rs-demo__save-btn reads7984-btn reads7984-btn--primary"
+            data-action="demo-save"
+            type="button"
+          >
+            __MSG_onbP2DemoBtn__
+          </button>
+
+          <ul class="rs-demo__library" data-demo-library>
+            <li class="rs-demo__card reads7984-card" data-demo-card>
+              <span class="rs-demo__card-domain">arstechnica.com</span>
+              <span class="rs-demo__card-title">
+                The hidden cost of microservices at scale
+              </span>
+              <span class="rs-demo__card-meta">8 min read</span>
+            </li>
+            <li class="rs-demo__card reads7984-card" data-demo-card>
+              <span class="rs-demo__card-domain">theatlantic.com</span>
+              <span class="rs-demo__card-title">
+                A long-form essay on attention and solitude
+              </span>
+              <span class="rs-demo__card-meta">22 min read</span>
+            </li>
+            <li class="rs-demo__card reads7984-card" data-demo-card data-demo-slot>
+              <span class="rs-demo__card-domain rs-demo__card-domain--placeholder">your-save.com</span>
+              <span class="rs-demo__card-title rs-demo__card-title--placeholder">
+                Your saved article appears here
+              </span>
+              <span class="rs-demo__card-meta rs-demo__card-meta--placeholder">0 min read</span>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          class="rs-onboarding__cta reads7984-btn reads7984-btn--primary"
+          data-action="next"
+          type="button"
+        >
+          __MSG_onbP2Cta__
+        </button>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         Page 3 — Customize (tags, theme, per-domain pause)
+         ================================================================ -->
+    <section
+      class="rs-onboarding__page"
+      data-page="3"
+      data-active="false"
+      aria-hidden="true"
+    >
+      <div class="rs-onboarding__inner">
+        <h1 class="rs-onboarding__headline">__MSG_onbP3Headline__</h1>
+
+        <fieldset class="rs-onboarding__group">
+          <legend class="rs-onboarding__group-label">__MSG_onbP3TagsLabel__</legend>
+          <p class="rs-onboarding__group-hint">
+            __MSG_onbP3TagsHint__
+          </p>
+          <div class="rs-onboarding__chips" data-tag-chips>
+            <button class="rs-chip" data-tag="read-later" type="button">read-later</button>
+            <button class="rs-chip" data-tag="tech" type="button">tech</button>
+            <button class="rs-chip" data-tag="long-read" type="button">long-read</button>
+            <button class="rs-chip" data-tag="recipe" type="button">recipe</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="rs-onboarding__group">
+          <legend class="rs-onboarding__group-label">__MSG_onbP3ThemeLabel__</legend>
+          <div class="rs-onboarding__swatches" data-theme-swatches>
+            <button
+              class="rs-swatch"
+              data-theme-choice="light"
+              type="button"
+              aria-label="Light theme"
+            >
+              <span class="rs-swatch__dot rs-swatch__dot--light"></span>
+              <span class="rs-swatch__label">Light</span>
+            </button>
+            <button
+              class="rs-swatch"
+              data-theme-choice="dark"
+              type="button"
+              aria-label="Dark theme"
+            >
+              <span class="rs-swatch__dot rs-swatch__dot--dark"></span>
+              <span class="rs-swatch__label">Dark</span>
+            </button>
+            <button
+              class="rs-swatch"
+              data-theme-choice="auto"
+              type="button"
+              aria-label="Auto theme (follows system)"
+            >
+              <span class="rs-swatch__dot rs-swatch__dot--auto"></span>
+              <span class="rs-swatch__label">Auto</span>
+            </button>
+          </div>
+        </fieldset>
+
+        <fieldset class="rs-onboarding__group">
+          <legend class="rs-onboarding__group-label">__MSG_onbP3PauseLabel__</legend>
+          <p class="rs-onboarding__group-hint">
+            __MSG_onbP3PauseHint__
+          </p>
+          <input
+            class="rs-onboarding__input reads7984-input"
+            data-domain-pause
+            type="text"
+            placeholder="__MSG_onbP3PausePlaceholder__"
+          />
+        </fieldset>
+
+        <button
+          class="rs-onboarding__cta reads7984-btn reads7984-btn--primary"
+          data-action="save-preferences"
+          type="button"
+        >
+          __MSG_onbP3Cta__
+        </button>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         Page 4 — Offer ($99 lifetime / 7-day trial / 30-day money-back)
+         ================================================================ -->
+    <section
+      class="rs-onboarding__page"
+      data-page="4"
+      data-active="false"
+      aria-hidden="true"
+    >
+      <div class="rs-onboarding__inner">
+        <h1 class="rs-onboarding__headline">
+          __MSG_onbP5Headline__
+        </h1>
+        <ul class="rs-offer__points">
+          <li class="rs-offer__point">__MSG_onbP5Point1__</li>
+          <li class="rs-offer__point">__MSG_onbP5Point2__</li>
+          <li class="rs-offer__point">__MSG_onbP5Point3__</li>
+          <li class="rs-offer__point">__MSG_onbP5Point4__</li>
+        </ul>
+
+        <button
+          class="rs-onboarding__cta reads7984-btn reads7984-btn--primary"
+          data-action="start-trial"
+          type="button"
+        >
+          __MSG_onbP5CtaPrimary__
+        </button>
+        <button
+          class="rs-onboarding__cta rs-onboarding__cta--secondary reads7984-btn reads7984-btn--ghost"
+          data-action="next"
+          type="button"
+        >
+          __MSG_onbP5CtaSecondary__
+        </button>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         Page 5 — Close ("Your stash is yours")
+         ================================================================ -->
+    <section
+      class="rs-onboarding__page"
+      data-page="5"
+      data-active="false"
+      aria-hidden="true"
+    >
+      <div class="rs-onboarding__inner">
+        <h1 class="rs-onboarding__headline">__MSG_onbP6Headline__</h1>
+        <p class="rs-onboarding__lede">
+          __MSG_onbP6Lede__
+        </p>
+
+        <div class="rs-onboarding__close-actions">
+          <button
+            class="rs-onboarding__cta reads7984-btn reads7984-btn--primary"
+            data-action="open-library"
+            type="button"
+          >
+            __MSG_onbP6CtaPrimary__
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         Navigation: prev/next + page indicator dots
+         ================================================================ -->
+    <nav class="rs-nav" aria-label="Onboarding navigation">
+      <button
+        class="rs-nav__btn rs-nav__btn--prev reads7984-btn reads7984-btn--ghost"
+        data-action="prev"
+        type="button"
+        disabled
+      >
+        <span aria-hidden="true">&larr;</span>&nbsp;<span data-i18n="onbNavBack">__MSG_onbNavBack__</span>
+      </button>
+
+      <div class="rs-nav__dots" data-nav-dots>
+        <button class="rs-nav__dot rs-nav__dot--active" data-goto="1" type="button" aria-label="Go to page 1"></button>
+        <button class="rs-nav__dot" data-goto="2" type="button" aria-label="Go to page 2"></button>
+        <button class="rs-nav__dot" data-goto="3" type="button" aria-label="Go to page 3"></button>
+        <button class="rs-nav__dot" data-goto="4" type="button" aria-label="Go to page 4"></button>
+        <button class="rs-nav__dot" data-goto="5" type="button" aria-label="Go to page 5"></button>
+      </div>
+
+      <button
+        class="rs-nav__btn rs-nav__btn--next reads7984-btn reads7984-btn--ghost"
+        data-action="next"
+        type="button"
+      >
+        <span data-i18n="onbNavNext">__MSG_onbNavNext__</span>&nbsp;<span aria-hidden="true">&rarr;</span>
+      </button>
+    </nav>
+
+  </main>
+  <script type="module" src="onboarding.js"></script>
+</body>
+</html>

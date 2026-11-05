@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: Lokales „Später lesen\", Pocket-Alternative",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Artikel speichern, später lesen. Tags, Suche, Lesemodus. Privat — deine Sammlung verlässt nie dein Gerät. Pocket-Alternative.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Diese Seite in Read Stash speichern",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Aktuelle Seite in Read Stash speichern",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Diese Seite speichern",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Speichern…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "In deiner Sammlung gespeichert",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "Speichern fehlgeschlagen — erneut versuchen",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Sammlung durchsuchen…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Vollständige Bibliothek öffnen",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "Deine Sammlung ist leer",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Speichere deine erste Seite — klicke auf die Schaltfläche oben oder rechtsklicke auf eine Seite oder einen Link.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Keine Treffer",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Probiere einen anderen Tag oder Suchbegriff.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Tags hinzufügen (kommagetrennt)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ Min. Lesezeit",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Gespeichert $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Archivieren",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Ins Archiv senden",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Wiederherstellen",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Löschen",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Artikel gelöscht",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Rückgängig",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Lesen",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Original öffnen",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Exportieren",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Read Stash Pro freischalten",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Geräteübergreifender Sync (Metadaten)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Export nach JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Lese-Erinnerungen (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Upgrade auf Read Stash Pro für $price$ einmalig",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Eine Zahlung. Für immer deins.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "Du hast $count$ Artikel gespeichert. Pro ergänzt Sync über alle deine Geräte hinweg.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$-Tage kostenlose Testphase",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pro holen — $price$ auf Lebenszeit",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$-Tage Geld-zurück-Garantie. Kein Abo, keine Verlängerung, keine Datenerfassung.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket gibt es nicht mehr",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Deine „Später lesen\"-Sammlung hat es verdient, zu überleben.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla hat Pocket am 8. Juli 2025 eingestellt. Millionen von Nutzern verloren ihre „Später lesen\"-Sammlung über Nacht. Mozilla räumte ein 3-monatiges Exportfenster ein — die meisten verpassten es.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash ist die datenschutzfreundliche Alternative. Kein Konto. Keine Cloud. Deine Sammlung verlässt nie dein Gerät.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Hol dir dein „Später lesen\" zurück",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Ein Klick. Für immer gespeichert.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Klicke auf das Symbol in der Symbolleiste oder rechtsklicke auf eine beliebige Seite. Read Stash extrahiert Titel, Auszug, Lesezeit und Titelbild — alles lokal.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Ausprobieren — einen Beispielartikel speichern",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Gespeichert!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Alles klar — Tags einrichten anzeigen",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Mach es zu deinem.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Standard-Tags",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Werden bei jedem Speichern automatisch angewendet.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Design",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Pause pro Domain",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Speicherdialog auf diesen Domains nicht anzeigen. Kommagetrennt oder freilassen.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "z. B. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Einstellungen speichern",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Eine Zahlung. Für immer deins.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 Lizenz auf Lebenszeit.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7-Tage kostenlose Testphase — keine Karte erforderlich.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30-Tage Geld-zurück-Garantie.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Kein Abo. Keine pro Nutzer. Keine pro Jahr.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "7-Tage Testphase starten",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Vielleicht später",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "Deine Sammlung gehört dir.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Verschlage deine ersten 3 Artikel — Sammlungen mit Tags sind in sechs Monaten zehnmal nützlicher.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Meine Bibliothek öffnen",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Zurück",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Weiter",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Zur Seite $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

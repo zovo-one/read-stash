@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: lokalno branje pozneje, zamenjava za Pocket",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Shranite članke, berite pozneje. Oznake, iskanje, bralni način. Zasebno — vaša zbirka nikoli ne zapusti naprave. Alternativa za Pocket.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Shrani to stran v Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Shrani trenutno stran v Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Shrani to stran",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Shranjevanje…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Shranjeno v vašo zbirko",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "Shranjevanje ni uspelo — poskusite znova",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Iščite po zbirki…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Odpri celotno knjižnico",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "Vaša zbirka je prazna",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Shranite svojo prvo stran — kliknite gumb zgoraj ali z desno tipko kliknite katero koli stran ali povezavo.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Ni zadetkov",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Poskusite z drugo oznako ali iskalnim izrazom.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Dodaj oznake (ločene z vejico)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ min branja",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Shranjeno $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Arhiviraj",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Pošlji v arhiv",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Odstrani iz arhiva",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Izbriši",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Članek izbrisan",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Razveljavi",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Beri",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Odpri izvirnik",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Izvozi",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Odklenite Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Sinhronizacija med napravami (metapodatki)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Izvoz v JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Opomniki za branje (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Nadgradite na Read Stash Pro za $price$ enkratno",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Eno plačilo. Za vedno vaše.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "Shranili ste $count$ člankov. Pro doda sinhronizacijo med vsemi vašimi napravami.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$-dnevno brezplačno preizkusno obdobje",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pridobi Pro — $price$ za vedno",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$-dnevna garancija vračila denarja. Brez naročnine, brez podaljševanja, brez zbiranja podatkov.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket ni več",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Vaša knjižnica za branje pozneje si zasluži preživeti.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla je ukinila Pocket 8. julija 2025. Milijoni uporabnikov so čez noč izgubili svojo knjižnico za branje pozneje. Mozilla je dala trimesečno okno za izvoz — večina ga je zamudila.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash je zamenjava, ki daje prednost zasebnosti. Brez računa. Brez oblaka. Vaša zbirka nikoli ne zapusti naprave.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Povrnite svoje branje pozneje",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "En klik. Shranjeno za vedno.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Kliknite ikono v orodni vrstici ali z desno tipko kliknite katero koli stran. Read Stash pridobi naslov, izvleček, čas branja in naslovno sliko — vse lokalno.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Preizkusite — shranite vzorčni članek",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Shranjeno!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Razumem — pokažite mi, kako označevati",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Prilagodite si ga.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Privzete oznake",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Samodejno se uporabijo ob vsakem shranjevanju.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Tema",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Premor za domeno",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Ne prikaži poziva za shranjevanje na teh domenah. Ločeno z vejico ali preskočite.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "npr. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Shrani moje nastavitve",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Eno plačilo. Za vedno vaše.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 doživljenjska licenca.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7-dnevno brezplačno preizkusno obdobje — za začetek kartica ni potrebna.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30-dnevna garancija vračila denarja.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Brez naročnine. Brez plačila na sedež. Brez letnega plačila.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "Začni 7-dnevno preizkusno obdobje",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Morda pozneje",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "Vaša zbirka je vaša.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Označite svoje prve 3 članke — označene zbirke so čez šest mesecev 10x bolj uporabne.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Odpri mojo knjižnico",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Nazaj",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Naprej",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Pojdi na stran $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

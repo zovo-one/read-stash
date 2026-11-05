@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: Soma Baadaye Ndani, Mbadala wa Pocket",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Hifadhi makala, soma baadaye. Vitambulisho, utafutaji, hali ya kusoma. Faragha — hazina yako haiondoki kifaani. Mbadala wa Pocket.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Hifadhi ukurasa huu kwenye Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Hifadhi ukurasa wa sasa kwenye Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Hifadhi ukurasa huu",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Inahifadhi…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Imehifadhiwa kwenye hazina yako",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "Kuhifadhi kumeshindwa — jaribu tena",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Tafuta katika hazina yako…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Fungua maktaba kamili",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "Hazina yako haina kitu",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Hifadhi ukurasa wako wa kwanza — bofya kitufe kilicho juu, au bofya kulia ukurasa au kiungo chochote.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Hakuna vinavyolingana",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Jaribu kitambulisho au neno la utafutaji tofauti.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Ongeza vitambulisho (vinavyotenganishwa kwa koma)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "Dakika $n$ za kusoma",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Imehifadhiwa $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Weka kwenye kumbukumbu",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Peleka kwenye kumbukumbu",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Ondoa kwenye kumbukumbu",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Futa",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Makala imefutwa",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Tendua",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Soma",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Fungua asili",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Hamisha",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Fungua Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Ulandanishaji kati ya vifaa (metadata)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Hamisha hadi JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Vikumbusho vya kusoma (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Pandisha hadi Read Stash Pro kwa $price$ mara moja",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Malipo moja. Yako milele.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "Umehifadhi makala $count$. Pro inaongeza ulandanishaji kati ya vifaa vyako vyote.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "Jaribio la bure la siku $days$",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pata Pro — $price$ Milele",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "Dhamana ya kurejeshewa pesa ya siku $days$. Hakuna usajili, hakuna uhuishaji, hakuna ukusanyaji wa data.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket imekwisha",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Maktaba yako ya kusoma baadaye inastahili kudumu.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla ilifunga Pocket tarehe 8 Julai 2025. Mamilioni ya watumiaji walipoteza maktaba yao ya kusoma baadaye usiku mmoja. Mozilla ilitoa dirisha la miezi mitatu la kuhamisha — wengi walilikosa.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash ni mbadala unaotanguliza faragha. Hakuna akaunti. Hakuna wingu. Hazina yako haiondoki kifaani.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Rejesha kusoma-baadaye kwako",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Bofya moja. Imehifadhiwa milele.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Bofya aikoni ya upau wa vidhibiti au bofya kulia ukurasa wowote. Read Stash huvuta kichwa, dondoo, muda wa kusoma, na picha ya jalada — vyote kifaani.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Jaribu — hifadhi makala ya mfano",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Imehifadhiwa!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Nimeelewa — nionyeshe jinsi ya kuweka vitambulisho",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Ifanye iwe yako.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Vitambulisho chaguo-msingi",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Vinatumika kiotomatiki kila unapohifadhi.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Mandhari",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Kusitisha kwa kila kikoa",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Usionyeshe kidokezo cha kuhifadhi kwenye vikoa hivi. Tenganisha kwa koma, au ruka.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "k.m. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Hifadhi mapendeleo yangu",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Malipo moja. Yako milele.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "Leseni ya maisha ya $$99.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "Jaribio la bure la siku 7 — hakuna kadi inayohitajika kuanza.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "Dhamana ya kurejeshewa pesa ya siku 30.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Hakuna usajili. Hakuna malipo kwa kila kiti. Hakuna malipo kwa kila mwaka.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "Anza jaribio la siku 7",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Labda baadaye",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "Hazina yako ni yako.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Weka vitambulisho kwenye makala zako 3 za kwanza — hazina zenye vitambulisho ni muhimu mara 10 zaidi baada ya miezi sita.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Fungua maktaba yangu",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Nyuma",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Ifuatayo",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Nenda kwenye ukurasa $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

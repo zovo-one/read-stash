@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: อ่านทีหลังแบบโลคัล ทดแทน Pocket",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "บันทึกบทความไว้อ่านทีหลัง แท็ก ค้นหา โหมดอ่าน ส่วนตัว — สแตชไม่เคยออกจากเครื่องของคุณ ทางเลือกแทน Pocket",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "บันทึกหน้านี้ไปยัง Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "บันทึกหน้าปัจจุบันไปยัง Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "บันทึกหน้านี้",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "กำลังบันทึก…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "บันทึกลงสแตชแล้ว",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "บันทึกไม่สำเร็จ — ลองอีกครั้ง",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "ค้นหาในสแตชของคุณ…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "เปิดคลังทั้งหมด",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "สแตชของคุณว่างเปล่า",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "บันทึกหน้าแรกของคุณ — คลิกปุ่มด้านบน หรือคลิกขวาที่หน้าใดก็ได้หรือลิงก์ใดก็ได้",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "ไม่พบรายการที่ตรงกัน",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "ลองใช้แท็กหรือคำค้นหาอื่น",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "เพิ่มแท็ก (คั่นด้วยจุลภาค)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "อ่าน $n$ นาที",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "บันทึกเมื่อ $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "เก็บเข้าคลัง",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "ส่งไปยังคลังเก็บ",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "นำออกจากคลังเก็บ",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "ลบ",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "ลบบทความแล้ว",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "เลิกทำ",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "อ่าน",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "เปิดต้นฉบับ",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "ส่งออก",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "ปลดล็อก Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "ซิงค์ข้ามอุปกรณ์ (ข้อมูลเมทาดาทา)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "ส่งออกเป็น JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "การเตือนให้อ่าน (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "อัปเกรดเป็น Read Stash Pro ในราคา $price$ ครั้งเดียว",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "จ่ายครั้งเดียว เป็นของคุณตลอดไป",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "คุณได้สแตชบทความไปแล้ว $count$ รายการ Pro เพิ่มการซิงค์ข้ามทุกอุปกรณ์ของคุณ",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "ทดลองใช้ฟรี $days$ วัน",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "รับ Pro — $price$ ตลอดชีพ",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "รับประกันคืนเงินภายใน $days$ วัน ไม่มีการสมัครสมาชิก ไม่มีการต่ออายุ ไม่มีการเก็บข้อมูล",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket ปิดตัวลงแล้ว",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "คลังอ่านทีหลังของคุณสมควรได้อยู่ต่อ",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla ปิด Pocket เมื่อวันที่ 8 กรกฎาคม 2025 ผู้ใช้หลายล้านคนสูญเสียคลังอ่านทีหลังในชั่วข้ามคืน Mozilla ให้เวลาส่งออกข้อมูล 3 เดือน — คนส่วนใหญ่พลาดไป",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash คือทางเลือกที่ให้ความเป็นส่วนตัวเป็นอันดับแรก ไม่ต้องมีบัญชี ไม่ต้องใช้คลาวด์ สแตชของคุณไม่เคยออกจากเครื่องของคุณ",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "ทวงคืนการอ่านทีหลังของคุณ",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "คลิกเดียว บันทึกไว้ตลอดไป",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "คลิกไอคอนบนแถบเครื่องมือ หรือคลิกขวาที่หน้าใดก็ได้ Read Stash จะดึงชื่อเรื่อง ข้อความคัดย่อ เวลาในการอ่าน และรูปหน้าปก — ทั้งหมดในเครื่อง",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "ลองดูสิ — บันทึกบทความตัวอย่าง",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "บันทึกแล้ว!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "เข้าใจแล้ว — แสดงวิธีติดแท็กให้ดู",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "ทำให้เป็นของคุณ",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "แท็กเริ่มต้น",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "นำไปใช้โดยอัตโนมัติทุกครั้งที่คุณบันทึก",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "ธีม",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "หยุดชั่วคราวตามโดเมน",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "ไม่ต้องแสดงข้อความบันทึกบนโดเมนเหล่านี้ คั่นด้วยจุลภาค หรือข้ามไป",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "เช่น mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "บันทึกการตั้งค่าของฉัน",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "จ่ายครั้งเดียว เป็นของคุณตลอดไป",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "ใบอนุญาตตลอดชีพ $$99",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "ทดลองใช้ฟรี 7 วัน — ไม่ต้องใช้บัตรเพื่อเริ่มต้น",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "รับประกันคืนเงินภายใน 30 วัน",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "ไม่มีการสมัครสมาชิก ไม่คิดตามที่นั่ง ไม่คิดรายปี",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "เริ่มทดลองใช้ 7 วัน",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "ไว้ทีหลัง",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "สแตชของคุณเป็นของคุณ",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "ติดแท็กบทความ 3 ชิ้นแรกของคุณ — สแตชที่ติดแท็กจะมีประโยชน์มากขึ้น 10 เท่าในอีกหกเดือนข้างหน้า",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "เปิดคลังของฉัน",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "ย้อนกลับ",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "ถัดไป",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "ไปที่หน้า $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

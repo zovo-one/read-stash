@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: स्थानिक नंतर-वाचा, Pocket पर्याय",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "लेख जतन करा, नंतर वाचा. टॅग, शोध, रीडर मोड. खाजगी — तुमचा संग्रह तुमचे उपकरण कधीही सोडत नाही. Pocket पर्याय.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "हे पान Read Stash मध्ये जतन करा",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "सध्याचे पान Read Stash मध्ये जतन करा",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "हे पान जतन करा",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "जतन करत आहे…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "तुमच्या संग्रहात जतन केले",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "जतन अयशस्वी — पुन्हा प्रयत्न करा",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "तुमच्या संग्रहात शोधा…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "पूर्ण ग्रंथालय उघडा",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "तुमचा संग्रह रिकामा आहे",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "तुमचे पहिले पान जतन करा — वरील बटणावर क्लिक करा, किंवा कोणत्याही पानावर किंवा दुव्यावर उजवी-क्लिक करा.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "जुळणी नाही",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "वेगळा टॅग किंवा शोध शब्द वापरून पहा.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "टॅग जोडा (स्वल्पविरामाने वेगळे)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ मिनिट वाचन",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "$when$ जतन केले",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "संग्रहित करा",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "संग्रहात पाठवा",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "संग्रहातून काढा",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "हटवा",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "लेख हटवला",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "पूर्ववत करा",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "वाचा",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "मूळ उघडा",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "निर्यात",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Read Stash Pro अनलॉक करा",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "उपकरणांदरम्यान सिंक (मेटाडेटा)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "JSON, Markdown, HTML मध्ये निर्यात",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "वाचन स्मरणपत्रे (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Read Stash Pro मध्ये $price$ ला एकदा अपग्रेड करा",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "एक पेमेंट. कायमचे तुमचे.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "तुम्ही $count$ लेख साठवले आहेत. Pro तुमच्या सर्व उपकरणांमध्ये सिंक जोडते.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$-दिवस मोफत चाचणी",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pro मिळवा — $price$ आजीवन",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$-दिवस पैसे-परत हमी. सदस्यता नाही, नूतनीकरण नाही, डेटा संकलन नाही.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket संपले",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "तुमचे नंतर-वाचा ग्रंथालय टिकून राहण्यास पात्र आहे.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla ने 8 जुलै 2025 रोजी Pocket बंद केले. लाखो वापरकर्त्यांनी त्यांचे नंतर-वाचा ग्रंथालय रातोरात गमावले. Mozilla ने 3-महिन्यांची निर्यात मुदत दिली — बहुतेकांनी ती चुकवली.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash हा गोपनीयता-प्रथम पर्याय आहे. खाते नाही. क्लाउड नाही. तुमचा संग्रह तुमचे उपकरण कधीही सोडत नाही.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "तुमचे नंतर-वाचा परत मिळवा",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "एक क्लिक. कायमचे जतन.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "टूलबार चिन्हावर क्लिक करा किंवा कोणत्याही पानावर उजवी-क्लिक करा. Read Stash शीर्षक, उतारा, वाचन वेळ आणि मुखपृष्ठ प्रतिमा काढते — सर्व स्थानिक पातळीवर.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "प्रयत्न करा — एक नमुना लेख जतन करा",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "जतन केले!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "समजले — टॅग कसे करायचे ते दाखवा",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "ते तुमचे बनवा.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "डीफॉल्ट टॅग",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "तुम्ही जतन करता तेव्हा प्रत्येक वेळी स्वयंचलितपणे लागू केले जाते.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "थीम",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "प्रति-डोमेन विराम",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "या डोमेनवर जतन सूचना दाखवू नका. स्वल्पविरामाने वेगळे करा, किंवा वगळा.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "उदा. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "माझ्या पसंती जतन करा",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "एक पेमेंट. कायमचे तुमचे.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 आजीवन परवाना.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7-दिवस मोफत चाचणी — सुरू करण्यासाठी कार्ड आवश्यक नाही.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30-दिवस पैसे-परत हमी.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "सदस्यता नाही. प्रति-आसन नाही. प्रति-वर्ष नाही.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "7-दिवस चाचणी सुरू करा",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "कदाचित नंतर",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "तुमचा संग्रह तुमचा आहे.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "तुमचे पहिले 3 लेख टॅग करा — टॅग केलेले संग्रह सहा महिन्यांनंतर 10x अधिक उपयुक्त असतात.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "माझे ग्रंथालय उघडा",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "मागे",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "पुढे",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "पान $n$ वर जा",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

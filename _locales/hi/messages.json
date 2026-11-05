@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: स्थानीय बाद-में-पढ़ें, Pocket विकल्प",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "लेख सहेजें, बाद में पढ़ें. टैग, खोज, रीडर मोड. निजी — आपका संग्रह कभी आपके डिवाइस से बाहर नहीं जाता. Pocket विकल्प.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "इस पेज को Read Stash में सहेजें",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "मौजूदा पेज को Read Stash में सहेजें",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "यह पेज सहेजें",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "सहेजा जा रहा है…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "आपके संग्रह में सहेजा गया",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "सहेजना विफल — फिर से प्रयास करें",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "अपने संग्रह में खोजें…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "पूरी लाइब्रेरी खोलें",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "आपका संग्रह खाली है",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "अपना पहला पेज सहेजें — ऊपर दिए बटन पर क्लिक करें, या किसी भी पेज या लिंक पर राइट-क्लिक करें.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "कोई मिलान नहीं",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "कोई भिन्न टैग या खोज शब्द आज़माएं.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "टैग जोड़ें (अल्पविराम से अलग)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ मिनट पढ़ने का समय",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "$when$ सहेजा गया",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "संग्रहित करें",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "संग्रह में भेजें",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "संग्रह से हटाएं",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "हटाएं",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "लेख हटा दिया गया",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "पूर्ववत करें",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "पढ़ें",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "मूल खोलें",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "निर्यात करें",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Read Stash Pro अनलॉक करें",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "डिवाइसों के बीच सिंक (मेटाडेटा)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "JSON, Markdown, HTML में निर्यात",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "पढ़ने के रिमाइंडर (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "एक बार $price$ में Read Stash Pro में अपग्रेड करें",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "एक भुगतान. हमेशा के लिए आपका.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "आपने $count$ लेख सहेजे हैं. Pro आपके सभी डिवाइसों में सिंक जोड़ता है.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$-दिन का मुफ़्त ट्रायल",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pro लें — $price$ आजीवन",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$-दिन की मनी-बैक गारंटी. कोई सदस्यता नहीं, कोई नवीनीकरण नहीं, कोई डेटा संग्रह नहीं.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket समाप्त हो गया",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "आपकी बाद-में-पढ़ें लाइब्रेरी बचे रहने योग्य है.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla ने 8 जुलाई, 2025 को Pocket बंद कर दिया. लाखों उपयोगकर्ताओं ने रातोंरात अपनी बाद-में-पढ़ें लाइब्रेरी खो दी. Mozilla ने 3-महीने की निर्यात अवधि दी — अधिकांश लोग इसे चूक गए.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash गोपनीयता-प्रथम विकल्प है. कोई खाता नहीं. कोई क्लाउड नहीं. आपका संग्रह कभी आपके डिवाइस से बाहर नहीं जाता.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "अपनी बाद-में-पढ़ें वापस पाएं",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "एक क्लिक. हमेशा के लिए सहेजा गया.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "टूलबार आइकन पर क्लिक करें या किसी भी पेज पर राइट-क्लिक करें. Read Stash शीर्षक, अंश, पढ़ने का समय और कवर छवि निकालता है — सब कुछ स्थानीय रूप से.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "इसे आज़माएं — एक नमूना लेख सहेजें",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "सहेजा गया!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "समझ गया — मुझे टैग करना दिखाएं",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "इसे अपना बनाएं.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "डिफ़ॉल्ट टैग",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "हर बार सहेजने पर स्वचालित रूप से लागू होते हैं.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "थीम",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "प्रति-डोमेन रोकें",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "इन डोमेन पर सहेजने का संकेत न दिखाएं. अल्पविराम से अलग, या छोड़ें.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "उदा. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "मेरी प्राथमिकताएं सहेजें",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "एक भुगतान. हमेशा के लिए आपका.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 आजीवन लाइसेंस.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7-दिन का मुफ़्त ट्रायल — शुरू करने के लिए कार्ड की आवश्यकता नहीं.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30-दिन की मनी-बैक गारंटी.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "कोई सदस्यता नहीं. कोई प्रति-सीट नहीं. कोई प्रति-वर्ष नहीं.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "7-दिन का ट्रायल शुरू करें",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "शायद बाद में",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "आपका संग्रह आपका है.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "अपने पहले 3 लेखों को टैग करें — टैग किए गए संग्रह छह महीने बाद 10 गुना अधिक उपयोगी होते हैं.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "मेरी लाइब्रेरी खोलें",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "पीछे",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "आगे",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "पेज $n$ पर जाएं",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

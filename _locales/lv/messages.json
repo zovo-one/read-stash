@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: lokāls vēlāk-lasīt, Pocket aizstājējs",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Saglabājiet rakstus, lasiet vēlāk. Birkas, meklēšana, lasītāja režīms. Privāti — jūsu krājums nekad neatstāj ierīci. Pocket alternatīva.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Saglabāt šo lapu pakalpojumā Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Saglabāt pašreizējo lapu pakalpojumā Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Saglabāt šo lapu",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Saglabā…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Saglabāts jūsu krājumā",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "Saglabāšana neizdevās — mēģiniet vēlreiz",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Meklēt jūsu krājumā…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Atvērt pilno bibliotēku",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "Jūsu krājums ir tukšs",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Saglabājiet savu pirmo lapu — noklikšķiniet uz pogas augšpusē vai ar peles labo pogu noklikšķiniet uz jebkuras lapas vai saites.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Nav atbilstību",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Izmēģiniet citu birku vai meklēšanas vārdu.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Pievienot birkas (atdalītas ar komatiem)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ min lasīšana",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Saglabāts $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Arhivēt",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Sūtīt uz arhīvu",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Izņemt no arhīva",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Dzēst",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Raksts dzēsts",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Atsaukt",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Lasīt",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Atvērt oriģinālu",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Eksportēt",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Atbloķēt Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Sinhronizācija starp ierīcēm (metadati)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Eksports uz JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Lasīšanas atgādinājumi (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Jaunināt uz Read Stash Pro par $price$ vienreiz",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Viens maksājums. Jūsu uz visiem laikiem.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "Jūs esat noglabājis $count$ rakstu(s). Pro pievieno sinhronizāciju visās jūsu ierīcēs.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$ dienu bezmaksas izmēģinājums",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Iegūt Pro — $price$ uz mūžu",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$ dienu naudas atmaksas garantija. Nav abonementa, nav atjaunošanas, nav datu vākšanas.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket ir pagājis",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Jūsu vēlāk-lasīt bibliotēka ir pelnījusi izdzīvot.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla slēdza Pocket 2025. gada 8. jūlijā. Miljoniem lietotāju vienā naktī zaudēja savu vēlāk-lasīt bibliotēku. Mozilla deva 3 mēnešu eksporta logu — vairums to palaida garām.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash ir privātumam pirmais aizstājējs. Nav konta. Nav mākoņa. Jūsu krājums nekad neatstāj ierīci.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Atgūstiet savu vēlāk-lasīt",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Viens klikšķis. Saglabāts uz visiem laikiem.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Noklikšķiniet uz rīkjoslas ikonas vai ar peles labo pogu uz jebkuras lapas. Read Stash izvelk nosaukumu, izvilkumu, lasīšanas laiku un vāka attēlu — visu lokāli.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Izmēģiniet — saglabājiet parauga rakstu",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Saglabāts!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Sapratu — parādiet, kā birkot",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Padariet to par savu.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Noklusējuma birkas",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Tiek lietotas automātiski katru reizi, kad saglabājat.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Motīvs",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Pauze pa domēniem",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Nerādīt saglabāšanas uzvedni šajos domēnos. Atdaliet ar komatiem vai izlaidiet.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "piem. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Saglabāt manus iestatījumus",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Viens maksājums. Jūsu uz visiem laikiem.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 mūža licence.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7 dienu bezmaksas izmēģinājums — nav nepieciešama karte, lai sāktu.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30 dienu naudas atmaksas garantija.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Nav abonementa. Nav maksas par vietu. Nav maksas par gadu.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "Sākt 7 dienu izmēģinājumu",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Varbūt vēlāk",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "Jūsu krājums ir jūsu.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Birkojiet savus pirmos 3 rakstus — birkoti krājumi ir 10x noderīgāki pēc sešiem mēnešiem.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Atvērt manu bibliotēku",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Atpakaļ",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Tālāk",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Pāriet uz lapu $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

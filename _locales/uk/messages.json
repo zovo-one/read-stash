@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: локальне «прочитати пізніше», заміна Pocket",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Зберігайте статті, читайте пізніше. Теги, пошук, режим читання. Приватно — сховок не залишає ваш пристрій. Альтернатива Pocket.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Зберегти цю сторінку до Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Зберегти поточну сторінку до Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Зберегти цю сторінку",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Збереження…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Збережено до сховку",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "Не вдалося зберегти — спробуйте ще раз",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Пошук у вашому сховку…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Відкрити всю бібліотеку",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "Ваш сховок порожній",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Збережіть першу сторінку — натисніть кнопку вгорі або клацніть правою кнопкою миші на будь-якій сторінці чи посиланні.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Немає збігів",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Спробуйте інший тег або пошуковий запит.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Додати теги (через кому)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ хв читання",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Збережено $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Архівувати",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Надіслати до архіву",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Вилучити з архіву",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Видалити",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Статтю видалено",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Скасувати",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Читати",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Відкрити оригінал",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Експортувати",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Розблокувати Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Синхронізація між пристроями (метадані)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Експорт у JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Нагадування про читання (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Перейти на Read Stash Pro за $price$ одноразово",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Один платіж. Ваше назавжди.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "Ви зберегли $count$ статтю(ей). Pro додає синхронізацію між усіма вашими пристроями.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "Безкоштовний пробний період $days$ днів",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Придбати Pro — $price$ довічно",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "Гарантія повернення коштів протягом $days$ днів. Без підписки, без поновлення, без збору даних.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket більше немає",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Ваша бібліотека «прочитати пізніше» заслуговує вижити.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla закрила Pocket 8 липня 2025 року. Мільйони користувачів втратили свою бібліотеку «прочитати пізніше» за одну ніч. Mozilla надала 3-місячне вікно для експорту — більшість його пропустили.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash — це заміна з пріоритетом приватності. Без облікового запису. Без хмари. Ваш сховок ніколи не залишає ваш пристрій.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Поверніть собі «прочитати пізніше»",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Один клік. Збережено назавжди.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Натисніть значок на панелі інструментів або клацніть правою кнопкою миші на будь-якій сторінці. Read Stash витягує заголовок, уривок, час читання та обкладинку — усе локально.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Спробуйте — збережіть зразок статті",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Збережено!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Зрозуміло — покажіть, як додавати теги",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Зробіть це своїм.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Теги за замовчуванням",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Застосовуються автоматично щоразу, коли ви зберігаєте.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Тема",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Призупинення за доменом",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Не показувати запит на збереження на цих доменах. Через кому або пропустіть.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "напр. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Зберегти мої налаштування",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Один платіж. Ваше назавжди.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "Довічна ліцензія за $$99.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7-денний безкоштовний пробний період — картка для початку не потрібна.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30-денна гарантія повернення коштів.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Без підписки. Без оплати за місце. Без оплати за рік.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "Почати 7-денний пробний період",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Можливо, пізніше",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "Ваш сховок належить вам.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Додайте теги до перших 3 статей — сховки з тегами вдесятеро корисніші через півроку.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Відкрити мою бібліотеку",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Назад",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Далі",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Перейти до сторінки $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

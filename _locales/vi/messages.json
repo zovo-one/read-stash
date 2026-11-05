@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: Đọc sau cục bộ, thay thế Pocket",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Lưu bài viết, đọc sau. Thẻ, tìm kiếm, chế độ đọc. Riêng tư — kho lưu không bao giờ rời khỏi thiết bị của bạn. Thay thế cho Pocket.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Lưu trang này vào Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Lưu trang hiện tại vào Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Lưu trang này",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Đang lưu…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Đã lưu vào kho của bạn",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "Lưu thất bại — hãy thử lại",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Tìm trong kho của bạn…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Mở toàn bộ thư viện",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "Kho của bạn đang trống",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Lưu trang đầu tiên của bạn — nhấp nút ở trên, hoặc nhấp chuột phải vào bất kỳ trang hay liên kết nào.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Không có kết quả phù hợp",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Hãy thử một thẻ hoặc từ khóa tìm kiếm khác.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Thêm thẻ (phân tách bằng dấu phẩy)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "Đọc $n$ phút",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Đã lưu $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Lưu trữ",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Gửi vào lưu trữ",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Bỏ lưu trữ",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Xóa",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Đã xóa bài viết",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Hoàn tác",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Đọc",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Mở bản gốc",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Xuất",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Mở khóa Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Đồng bộ giữa các thiết bị (siêu dữ liệu)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Xuất sang JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Nhắc nhở đọc (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Nâng cấp lên Read Stash Pro với $price$ một lần",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Thanh toán một lần. Của bạn mãi mãi.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "Bạn đã lưu $count$ bài viết. Pro bổ sung đồng bộ trên tất cả thiết bị của bạn.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "Dùng thử miễn phí $days$ ngày",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Mua Pro — $price$ trọn đời",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "Đảm bảo hoàn tiền trong $days$ ngày. Không đăng ký định kỳ, không gia hạn, không thu thập dữ liệu.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket đã đóng cửa",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Thư viện đọc sau của bạn xứng đáng được tồn tại.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla đã đóng Pocket vào ngày 8 tháng 7 năm 2025. Hàng triệu người dùng mất thư viện đọc sau chỉ sau một đêm. Mozilla cho 3 tháng để xuất dữ liệu — hầu hết đều bỏ lỡ.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash là giải pháp thay thế ưu tiên quyền riêng tư. Không tài khoản. Không đám mây. Kho của bạn không bao giờ rời khỏi thiết bị của bạn.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Lấy lại phần đọc sau của bạn",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Một cú nhấp. Lưu mãi mãi.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Nhấp vào biểu tượng trên thanh công cụ hoặc nhấp chuột phải vào bất kỳ trang nào. Read Stash lấy tiêu đề, đoạn trích, thời gian đọc và ảnh bìa — tất cả đều cục bộ.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Hãy thử — lưu một bài viết mẫu",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Đã lưu!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Đã hiểu — chỉ tôi cách gắn thẻ",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Biến nó thành của bạn.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Thẻ mặc định",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Tự động áp dụng mỗi khi bạn lưu.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Giao diện",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Tạm dừng theo tên miền",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Không hiển thị lời nhắc lưu trên các tên miền này. Phân tách bằng dấu phẩy, hoặc bỏ qua.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "ví dụ: mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Lưu tùy chọn của tôi",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Thanh toán một lần. Của bạn mãi mãi.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "Giấy phép trọn đời $$99.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "Dùng thử miễn phí 7 ngày — không cần thẻ để bắt đầu.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "Đảm bảo hoàn tiền trong 30 ngày.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Không đăng ký định kỳ. Không tính theo chỗ ngồi. Không tính theo năm.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "Bắt đầu dùng thử 7 ngày",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Có thể để sau",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "Kho của bạn là của bạn.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Gắn thẻ cho 3 bài viết đầu tiên của bạn — các kho có gắn thẻ hữu ích gấp 10 lần sau sáu tháng.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Mở thư viện của tôi",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Quay lại",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Tiếp theo",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Đi tới trang $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

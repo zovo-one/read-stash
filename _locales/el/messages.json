@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: Τοπικό «Διάβασε αργότερα», αντικαταστάτης του Pocket",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Αποθηκεύστε άρθρα, διαβάστε αργότερα. Ετικέτες, αναζήτηση, λειτουργία ανάγνωσης. Ιδιωτικό. Εναλλακτική του Pocket.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Αποθήκευση αυτής της σελίδας στο Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Αποθήκευση τρέχουσας σελίδας στο Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Αποθήκευση αυτής της σελίδας",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Αποθήκευση…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Αποθηκεύτηκε στη συλλογή σας",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "Η αποθήκευση απέτυχε — δοκιμάστε ξανά",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Αναζήτηση στη συλλογή σας…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Άνοιγμα πλήρους βιβλιοθήκης",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "Η συλλογή σας είναι κενή",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Αποθηκεύστε την πρώτη σας σελίδα — κάντε κλικ στο παραπάνω κουμπί ή κάντε δεξί κλικ σε οποιαδήποτε σελίδα ή σύνδεσμο.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Δεν βρέθηκαν αποτελέσματα",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Δοκιμάστε διαφορετική ετικέτα ή όρο αναζήτησης.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Προσθήκη ετικετών (χωρισμένες με κόμμα)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ λεπτά ανάγνωσης",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Αποθηκεύτηκε $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Αρχειοθέτηση",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Αποστολή στο αρχείο",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Κατάργηση αρχειοθέτησης",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Διαγραφή",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Το άρθρο διαγράφηκε",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Αναίρεση",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Ανάγνωση",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Άνοιγμα πρωτοτύπου",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Εξαγωγή",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Ξεκλειδώστε το Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Συγχρονισμός μεταξύ συσκευών (μεταδεδομένα)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Εξαγωγή σε JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Υπενθυμίσεις ανάγνωσης (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Αναβαθμίστε στο Read Stash Pro για $price$ μία φορά",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Μία πληρωμή. Δικό σας για πάντα.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "Έχετε αποθηκεύσει $count$ άρθρο(-α). Το Pro προσθέτει συγχρονισμό σε όλες τις συσκευές σας.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "Δωρεάν δοκιμή $days$ ημερών",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Αποκτήστε το Pro — $price$ εφ' όρου ζωής",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "Εγγύηση επιστροφής χρημάτων $days$ ημερών. Χωρίς συνδρομή, χωρίς ανανέωση, χωρίς συλλογή δεδομένων.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Το Pocket χάθηκε",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Η βιβλιοθήκη «διάβασε αργότερα» σας αξίζει να επιβιώσει.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Η Mozilla τερμάτισε το Pocket στις 8 Ιουλίου 2025. Εκατομμύρια χρήστες έχασαν τη βιβλιοθήκη «διάβασε αργότερα» εν μία νυκτί. Η Mozilla έδωσε παράθυρο εξαγωγής 3 μηνών — οι περισσότεροι το έχασαν.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Το Read Stash είναι ο αντικαταστάτης με προτεραιότητα στην ιδιωτικότητα. Χωρίς λογαριασμό. Χωρίς cloud. Η συλλογή σας δεν φεύγει ποτέ από τη συσκευή σας.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Πάρτε πίσω το «διάβασε αργότερα»",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Ένα κλικ. Αποθηκευμένο για πάντα.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Κάντε κλικ στο εικονίδιο της γραμμής εργαλείων ή δεξί κλικ σε οποιαδήποτε σελίδα. Το Read Stash εξάγει τον τίτλο, το απόσπασμα, τον χρόνο ανάγνωσης και την εικόνα εξωφύλλου — όλα τοπικά.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Δοκιμάστε το — αποθηκεύστε ένα δείγμα άρθρου",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Αποθηκεύτηκε!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Το κατάλαβα — δείξτε μου πώς να βάζω ετικέτες",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Κάντε το δικό σας.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Προεπιλεγμένες ετικέτες",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Εφαρμόζονται αυτόματα κάθε φορά που αποθηκεύετε.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Θέμα",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Παύση ανά τομέα",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Να μην εμφανίζεται η προτροπή αποθήκευσης σε αυτούς τους τομείς. Χωρισμένοι με κόμμα ή παραλείψτε.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "π.χ. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Αποθήκευση των προτιμήσεών μου",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Μία πληρωμή. Δικό σας για πάντα.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "Άδεια εφ' όρου ζωής $$99.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "Δωρεάν δοκιμή 7 ημερών — δεν απαιτείται κάρτα για να ξεκινήσετε.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "Εγγύηση επιστροφής χρημάτων 30 ημερών.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Χωρίς συνδρομή. Χωρίς χρέωση ανά θέση. Χωρίς χρέωση ανά έτος.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "Έναρξη δοκιμής 7 ημερών",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Ίσως αργότερα",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "Η συλλογή σας είναι δική σας.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Βάλτε ετικέτες στα πρώτα σας 3 άρθρα — οι συλλογές με ετικέτες είναι 10 φορές πιο χρήσιμες σε έξι μήνες από τώρα.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Άνοιγμα της βιβλιοθήκης μου",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Πίσω",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Επόμενο",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Μετάβαση στη σελίδα $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

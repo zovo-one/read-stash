@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: vietinis skaityti-vėliau, Pocket pakaitalas",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Išsaugokite straipsnius, skaitykite vėliau. Žymos, paieška, skaitytuvo režimas. Privatu — jūsų saugykla niekada nepalieka įrenginio. Pocket alternatyva.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Išsaugoti šį puslapį į Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Išsaugoti dabartinį puslapį į Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Išsaugoti šį puslapį",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Išsaugoma…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Išsaugota jūsų saugykloje",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "Nepavyko išsaugoti — bandykite dar kartą",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Ieškoti jūsų saugykloje…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Atverti visą biblioteką",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "Jūsų saugykla tuščia",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Išsaugokite savo pirmąjį puslapį — spustelėkite mygtuką viršuje arba dešiniuoju pelės klavišu spustelėkite bet kurį puslapį ar nuorodą.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Atitikmenų nėra",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Išbandykite kitą žymą arba paieškos žodį.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Pridėti žymas (atskirtas kableliais)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ min skaitymo",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Išsaugota $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Archyvuoti",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Siųsti į archyvą",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Grąžinti iš archyvo",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Ištrinti",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Straipsnis ištrintas",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Anuliuoti",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Skaityti",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Atverti originalą",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Eksportuoti",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Atrakinti Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Sinchronizavimas tarp įrenginių (metaduomenys)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Eksportas į JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Skaitymo priminimai (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Atnaujinti į Read Stash Pro už $price$ vienkartinai",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Vienas mokėjimas. Jūsų visam laikui.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "Jūs išsaugojote $count$ straipsnį(-ių). Pro prideda sinchronizavimą visuose jūsų įrenginiuose.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$ dienų nemokamas bandymas",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Įsigyti Pro — $price$ visam laikui",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$ dienų pinigų grąžinimo garantija. Jokios prenumeratos, jokio atnaujinimo, jokio duomenų rinkimo.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket dingo",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Jūsų skaityti-vėliau biblioteka nusipelno išlikti.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla uždarė Pocket 2025 m. liepos 8 d. Milijonai naudotojų per naktį prarado savo skaityti-vėliau biblioteką. Mozilla suteikė 3 mėnesių eksporto langą — dauguma jį praleido.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash yra privatumą pirmiausia iškeliantis pakaitalas. Jokios paskyros. Jokio debesies. Jūsų saugykla niekada nepalieka įrenginio.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Susigrąžinkite savo skaityti-vėliau",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Vienas spustelėjimas. Išsaugota visam laikui.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Spustelėkite įrankių juostos piktogramą arba dešiniuoju pelės klavišu bet kuriame puslapyje. Read Stash ištraukia pavadinimą, ištrauką, skaitymo laiką ir viršelio paveikslėlį — viską vietoje.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Išbandykite — išsaugokite pavyzdinį straipsnį",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Išsaugota!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Supratau — parodykite, kaip žymėti",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Padarykite ją savo.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Numatytosios žymos",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Taikomos automatiškai kaskart, kai išsaugote.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Tema",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Pristabdymas pagal domeną",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Nerodyti išsaugojimo raginimo šiuose domenuose. Atskirkite kableliais arba praleiskite.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "pvz. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Išsaugoti mano nustatymus",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Vienas mokėjimas. Jūsų visam laikui.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 visą gyvenimą galiojanti licencija.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7 dienų nemokamas bandymas — pradžiai kortelės nereikia.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30 dienų pinigų grąžinimo garantija.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Jokios prenumeratos. Jokio mokesčio už vietą. Jokio mokesčio už metus.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "Pradėti 7 dienų bandymą",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Galbūt vėliau",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "Jūsų saugykla yra jūsų.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Pažymėkite savo pirmuosius 3 straipsnius — pažymėtos saugyklos po šešių mėnesių yra 10x naudingesnės.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Atverti mano biblioteką",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Atgal",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Toliau",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Eiti į puslapį $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

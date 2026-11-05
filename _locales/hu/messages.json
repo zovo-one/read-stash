@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: Helyi olvasás később, Pocket-helyettesítő",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Cikkek mentése, olvasás később. Címkék, keresés, olvasó mód. Privát — a gyűjteménye sosem hagyja el az eszközét. Pocket-alternatíva.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Az oldal mentése a Read Stash-be",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "A jelenlegi oldal mentése a Read Stash-be",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Az oldal mentése",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Mentés…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Mentve a gyűjteményébe",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "A mentés sikertelen — próbálja újra",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Keresés a gyűjteményében…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Teljes könyvtár megnyitása",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "A gyűjteménye üres",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Mentse el az első oldalát — kattintson a fenti gombra, vagy kattintson jobb gombbal bármely oldalra vagy hivatkozásra.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Nincs találat",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Próbáljon másik címkét vagy keresési kifejezést.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Címkék hozzáadása (vesszővel elválasztva)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ perc olvasás",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Mentve: $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Archiválás",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Küldés az archívumba",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Archiválás visszavonása",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Törlés",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "A cikk törölve",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Visszavonás",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Olvasás",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Eredeti megnyitása",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Exportálás",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "A Read Stash Pro feloldása",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Eszközök közötti szinkronizálás (metaadatok)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Exportálás JSON, Markdown, HTML formátumba",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Olvasási emlékeztetők (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Frissítés a Read Stash Pro-ra egyszeri $price$ összegért",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Egy fizetés. Örökre az Öné.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "$count$ cikket mentett el. A Pro szinkronizálást ad minden eszközén.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$ napos ingyenes próbaidőszak",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pro beszerzése — $price$ örökös licenc",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$ napos pénzvisszafizetési garancia. Nincs előfizetés, nincs megújítás, nincs adatgyűjtés.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "A Pocket megszűnt",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Az olvasás-később könyvtára megérdemli, hogy fennmaradjon.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "A Mozilla 2025. július 8-án megszüntette a Pocketet. Felhasználók milliói vesztették el olvasás-később könyvtárukat egyik napról a másikra. A Mozilla 3 hónapos exportálási időszakot adott — a legtöbben lemaradtak róla.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "A Read Stash az adatvédelmet előtérbe helyező helyettesítő. Nincs fiók. Nincs felhő. A gyűjteménye sosem hagyja el az eszközét.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Szerezze vissza az olvasás-később gyűjteményét",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Egy kattintás. Örökre mentve.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Kattintson az eszköztár ikonjára, vagy kattintson jobb gombbal bármely oldalra. A Read Stash kinyeri a címet, a részletet, az olvasási időt és a borítóképet — mindezt helyben.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Próbálja ki — mentsen el egy mintacikket",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Mentve!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Értem — mutassa meg, hogyan címkézzek",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Tegye a magáévá.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Alapértelmezett címkék",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Automatikusan alkalmazva minden mentéskor.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Téma",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Szüneteltetés domainenként",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Ne jelenítse meg a mentési felszólítást ezeken a domaineken. Vesszővel elválasztva, vagy hagyja ki.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "pl. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Beállításaim mentése",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Egy fizetés. Örökre az Öné.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 örökös licenc.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7 napos ingyenes próbaidőszak — a kezdéshez nincs szükség kártyára.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30 napos pénzvisszafizetési garancia.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Nincs előfizetés. Nincs férőhely-alapú díj. Nincs éves díj.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "7 napos próbaidőszak indítása",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Talán később",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "A gyűjteménye az Öné.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Címkézze meg az első 3 cikkét — a címkézett gyűjtemények 10-szer hasznosabbak fél év múlva.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Könyvtáram megnyitása",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Vissza",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Tovább",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Ugrás a(z) $n$. oldalra",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

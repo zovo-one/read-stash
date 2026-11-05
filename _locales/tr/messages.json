@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: Yerel Oku-Sonra, Pocket Alternatifi",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Makaleleri kaydet, sonra oku. Etiketler, arama, okuyucu modu. Gizli — stash'iniz cihazınızdan ayrılmaz. Pocket alternatifi.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Bu sayfayı Read Stash'e kaydet",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Geçerli sayfayı Read Stash'e kaydet",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Bu sayfayı kaydet",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Kaydediliyor…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Stash'inize kaydedildi",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "Kaydetme başarısız — tekrar deneyin",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Stash'inizde arayın…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Tam kütüphaneyi aç",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "Stash'iniz boş",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "İlk sayfanızı kaydedin — yukarıdaki düğmeye tıklayın veya herhangi bir sayfaya ya da bağlantıya sağ tıklayın.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Sonuç yok",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Farklı bir etiket veya arama terimi deneyin.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Etiket ekle (virgülle ayrılmış)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ dk okuma",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "$when$ kaydedildi",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Arşivle",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Arşive gönder",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Arşivden çıkar",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Sil",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Makale silindi",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Geri al",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Oku",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Orijinali aç",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Dışa aktar",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Read Stash Pro'yu aç",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Cihazlar arası senkronizasyon (meta veriler)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "JSON, Markdown, HTML olarak dışa aktar",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Okuma hatırlatıcıları (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Read Stash Pro'ya $price$ karşılığında yükseltin",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Tek ödeme. Sonsuza dek sizin.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "$count$ makale kaydettiniz. Pro, tüm cihazlarınıza senkronizasyon ekler.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$ gün ücretsiz deneme",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pro'yu edinin — $price$ Ömür Boyu",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$ gün para iade garantisi. Abonelik yok, yenileme yok, veri toplama yok.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket gitti",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Oku-sonra kütüphanenizin hayatta kalmayı hak ediyor.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla, Pocket'i 8 Temmuz 2025'te kapattı. Milyonlarca kullanıcı oku-sonra kütüphanesini bir gece içinde kaybetti. Mozilla 3 aylık bir dışa aktarma penceresi verdi — çoğu kaçırdı.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash, gizlilik öncelikli alternatif. Hesap yok. Bulut yok. Stash'iniz cihazınızdan asla ayrılmaz.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Oku-sonranızı geri alın",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Tek tık. Sonsuza dek kaydedildi.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Araç çubuğu simgesine tıklayın veya herhangi bir sayfaya sağ tıklayın. Read Stash başlığı, özeti, okuma süresini ve kapak görselini çeker — hepsi yerel olarak.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Deneyin — örnek bir makale kaydedin",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Kaydedildi!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Anladım — etiketlemeyi göster",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Kendinize göre yapın.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Varsayılan etiketler",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Her kaydedişte otomatik olarak uygulanır.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Tema",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Etki alanı başına duraklatma",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Bu etki alanlarında kaydetme istemini gösterme. Virgülle ayrılmış veya atlayın.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "örn. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Tercihlerimi kaydet",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Tek ödeme. Sonsuza dek sizin.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 ömür boyu lisans.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7 günlük ücretsiz deneme — başlamak için kart gerekmez.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30 günlük para iade garantisi.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Abonelik yok. Kullanıcı başına değil. Yıl başına değil.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "7 günlük denemeyi başlat",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Belki daha sonra",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "Stash'iniz sizin.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "İlk 3 makalenizi etiketleyin — etiketli stash'ler alt ay sonra 10 kat daha kullanışlıdır.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Kütüphanemi aç",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Geri",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "İleri",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "$n$. sayfaya git",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash፦ የአካባቢ በኋላ-አንብብ፣ የPocket ምትክ",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "ጽሑፎችን ያስቀምጡ፣ በኋላ ያንብቡ። መለያዎች፣ ፍለጋ፣ የንባብ ሁነታ። የግል — ስብስብዎ ከመሣሪያዎ አይወጣም። የPocket አማራጭ።",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "ይህን ገጽ ወደ Read Stash ያስቀምጡ",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "የአሁኑን ገጽ ወደ Read Stash ያስቀምጡ",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "ይህን ገጽ ያስቀምጡ",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "በማስቀመጥ ላይ…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "ወደ ስብስብዎ ተቀምጧል",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "ማስቀመጥ አልተሳካም — እንደገና ይሞክሩ",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "ስብስብዎን ይፈልጉ…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "ሙሉ ቤተ-መጻሕፍትን ክፈት",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "ስብስብዎ ባዶ ነው",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "የመጀመሪያ ገጽዎን ያስቀምጡ — ከላይ ያለውን ቁልፍ ጠቅ ያድርጉ፣ ወይም በማንኛውም ገጽ ወይም አገናኝ ላይ በቀኝ-ጠቅ ያድርጉ።",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "ምንም ተዛማጅ የለም",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "የተለየ መለያ ወይም የፍለጋ ቃል ይሞክሩ።",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "መለያዎችን ያክሉ (በኮማ የተለዩ)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ ደቂቃ ንባብ",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "$when$ ተቀምጧል",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "መዝገብ",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "ወደ መዝገብ ላክ",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "ከመዝገብ አውጣ",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "ሰርዝ",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "ጽሑፍ ተሰርዟል",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "ቀልብስ",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "አንብብ",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "ዋናውን ክፈት",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "ወደ ውጭ ላክ",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Read Stash Pro ን ይክፈቱ",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "በመሣሪያዎች መካከል ማመሳሰል (ሜታዳታ)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "ወደ JSON፣ Markdown፣ HTML ላክ",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "የንባብ አስታዋሾች (D3፣ D7፣ D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Read Stash Pro ን በ$price$ በአንድ ጊዜ ያሻሽሉ",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "አንድ ክፍያ። ለዘላለም የእርስዎ።",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "$count$ ጽሑፍ(ፎች) አስቀምጠዋል። Pro በሁሉም መሣሪያዎችዎ መካከል ማመሳሰልን ያክላል።",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$-ቀን ነጻ ሙከራ",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pro ያግኙ — $price$ የዕድሜ ልክ",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$-ቀን የገንዘብ ተመላሽ ዋስትና። ምዝገባ የለም፣ እድሳት የለም፣ የውሂብ ስብስብ የለም።",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket ጠፍቷል",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "የበኋላ-አንብብ ቤተ-መጻሕፍትዎ መቆየት ይገባዋል።",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla በጁላይ 8፣ 2025 Pocket ን አቋረጠ። ሚሊዮኖች ተጠቃሚዎች የበኋላ-አንብብ ቤተ-መጻሕፍታቸውን በአንድ ሌሊት አጡ። Mozilla የ3-ወር የመላክ ጊዜ ሰጠ — አብዛኞቹ አመለጣቸው።",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash የግላዊነት-ቀዳሚ ምትክ ነው። መለያ የለም። ደመና የለም። ስብስብዎ ከመሣሪያዎ አይወጣም።",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "የበኋላ-አንብብዎን መልሰው ያግኙ",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "አንድ ጠቅታ። ለዘላለም ተቀመጠ።",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "የመሣሪያ አሞሌ አዶውን ጠቅ ያድርጉ ወይም ማንኛውንም ገጽ በቀኝ-ጠቅ ያድርጉ። Read Stash ርዕሱን፣ ቅንጭብ፣ የንባብ ጊዜ እና የሽፋን ምስል ያወጣል — ሁሉም በአካባቢው።",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "ይሞክሩት — የናሙና ጽሑፍ ያስቀምጡ",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "ተቀምጧል!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "ገባኝ — መለያ እንዴት እንደሚደረግ አሳየኝ",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "የእርስዎ ያድርጉት።",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "ነባሪ መለያዎች",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "በሚያስቀምጡበት ጊዜ ሁሉ በራስ-ሰር ይተገበራል።",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "ገጽታ",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "በጎራ ማቆም",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "በእነዚህ ጎራዎች ላይ የማስቀመጫ ጥያቄን አታሳይ። በኮማ የተለዩ፣ ወይም ዝለል።",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "ለምሳሌ mail.google.com፣ example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "ምርጫዎቼን አስቀምጥ",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "አንድ ክፍያ። ለዘላለም የእርስዎ።",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 የዕድሜ ልክ ፈቃድ።",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7-ቀን ነጻ ሙከራ — ለመጀመር ካርድ አያስፈልግም።",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30-ቀን የገንዘብ ተመላሽ ዋስትና።",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "ምዝገባ የለም። በመቀመጫ ክፍያ የለም። በዓመት ክፍያ የለም።",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "7-ቀን ሙከራ ጀምር",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "ምናልባት በኋላ",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "ስብስብዎ የእርስዎ ነው።",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "የመጀመሪያዎቹን 3 ጽሑፎችዎን መለያ ያድርጉ — መለያ የተደረገባቸው ስብስቦች ከስድስት ወር በኋላ 10x የበለጠ ጠቃሚ ናቸው።",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "ቤተ-መጻሕፍቴን ክፈት",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "ተመለስ",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "ቀጣይ",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "ወደ ገጽ $n$ ሂድ",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

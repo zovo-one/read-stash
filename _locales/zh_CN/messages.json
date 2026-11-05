@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: 本地稍后阅读,Pocket 替代品",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "保存文章,稍后阅读。支持标签、搜索、阅读模式。完全私密 — 你的收藏绝不离开本地设备。Pocket 替代方案。",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "将此页面保存到 Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "将当前页面保存到 Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "保存此页面",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "保存中…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "已保存到你的收藏",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "保存失败 — 请重试",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "搜索你的收藏…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "打开完整资料库",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "你的收藏为空",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "保存你的第一个页面 — 点击上方按钮,或右键点击任意页面或链接。",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "无匹配结果",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "请尝试其他标签或搜索词。",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "添加标签(逗号分隔)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ 分钟阅读",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "已保存 $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "归档",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "移至归档",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "取消归档",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "删除",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "文章已删除",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "撤销",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "阅读",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "打开原文",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "导出",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "解锁 Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "跨设备同步(元数据)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "导出为 JSON、Markdown、HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "阅读提醒(D3、D7、D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "升级到 Read Stash Pro,一次性支付 $price$",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "一次付款。永久归你所有。",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "你已收藏 $count$ 篇文章。Pro 可在你的所有设备间同步。",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$ 天免费试用",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "获取 Pro — $price$ 终身版",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$ 天退款保证。无订阅、无续费、不收集数据。",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket 已关停",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "你的稍后阅读库值得留存。",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla 已于 2025 年 7 月 8 日关停 Pocket。数百万用户一夜之间失去了他们的稍后阅读库。Mozilla 只给了 3 个月的导出窗口 — 大多数人都错过了。",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash 是隐私优先的替代方案。无需账户。无需云端。你的收藏绝不离开你的设备。",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "夺回你的稍后阅读",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "一键点击,永久保存。",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "点击工具栏图标或右键点击任意页面。Read Stash 会在本地提取标题、摘要、阅读时长和封面图片。",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "试一试 — 保存一篇示例文章",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "已保存!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "明白了 — 教我怎么加标签",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "自定义你的体验。",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "默认标签",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "每次保存时自动应用。",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "主题",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "按域名暂停",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "在这些域名上不显示保存提示。逗号分隔,或留空。",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "例如 mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "保存我的偏好设置",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "一次付款。永久归你所有。",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 终身许可证。",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7 天免费试用 — 无需银行卡即可开始。",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30 天退款保证。",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "无订阅。无按席位收费。无按年收费。",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "开始 7 天试用",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "以后再说",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "你的收藏属于你。",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "为你的前 3 篇文章添加标签 — 六个月后,带标签的收藏会比不带标签的实用 10 倍。",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "打开我的资料库",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "返回",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "下一步",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "跳转到第 $n$ 页",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

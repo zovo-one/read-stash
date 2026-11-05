@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: lokálne čítať neskôr, náhrada Pocket",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Ukladajte články, čítajte neskôr. Značky, hľadanie, režim čítania. Súkromné — váš archív nikdy neopustí zariadenie. Alternatíva k Pocket.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Uložiť túto stránku do Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Uložiť aktuálnu stránku do Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Uložiť túto stránku",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Ukladá sa…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Uložené do archívu",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "Uloženie zlyhalo — skúste znova",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Hľadať v archíve…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Otvoriť celú knižnicu",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "Váš archív je prázdny",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Uložte svoju prvú stránku — kliknite na tlačidlo vyššie alebo kliknite pravým tlačidlom na ľubovoľnú stránku či odkaz.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Žiadne zhody",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Skúste inú značku alebo hľadaný výraz.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Pridať značky (oddelené čiarkou)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ min čítania",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Uložené $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Archivovať",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Odoslať do archívu",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Zrušiť archiváciu",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Odstrániť",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Článok odstránený",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Späť",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Čítať",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Otvoriť originál",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Exportovať",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Odomknúť Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Synchronizácia medzi zariadeniami (metadáta)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Export do JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Pripomienky čítania (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Prejsť na Read Stash Pro za $price$ jednorazovo",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Jedna platba. Navždy vaše.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "Uložili ste $count$ článok(-ov). Pro pridáva synchronizáciu medzi všetkými vašimi zariadeniami.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$-dňová bezplatná skúšobná verzia",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Získať Pro — $price$ navždy",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$-dňová záruka vrátenia peňazí. Žiadne predplatné, žiadne obnovovanie, žiadny zber údajov.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket je preč",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Vaša knižnica na čítanie neskôr si zaslúži prežiť.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla ukončila Pocket 8. júla 2025. Milióny používateľov cez noc prišli o svoju knižnicu na čítanie neskôr. Mozilla poskytla trojmesačné okno na export — väčšina ho premeškala.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash je náhrada s dôrazom na súkromie. Žiadny účet. Žiadny cloud. Váš archív nikdy neopustí zariadenie.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Získajte späť svoje čítanie neskôr",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Jedno kliknutie. Uložené navždy.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Kliknite na ikonu na paneli nástrojov alebo kliknite pravým tlačidlom na ľubovoľnú stránku. Read Stash načíta názov, úryvok, čas čítania a titulný obrázok — všetko lokálne.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Vyskúšajte to — uložte ukážkový článok",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Uložené!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Rozumiem — ukážte mi, ako pridávať značky",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Prispôsobte si to.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Predvolené značky",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Použije sa automaticky pri každom uložení.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Motív",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Pozastavenie pre doménu",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Nezobrazovať výzvu na uloženie na týchto doménach. Oddelené čiarkou, alebo preskočte.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "napr. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Uložiť moje predvoľby",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Jedna platba. Navždy vaše.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 doživotná licencia.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7-dňová bezplatná skúšobná verzia — na začiatok nie je potrebná karta.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30-dňová záruka vrátenia peňazí.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Žiadne predplatné. Žiadny poplatok za miesto. Žiadny ročný poplatok.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "Spustiť 7-dňovú skúšobnú verziu",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Možno neskôr",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "Váš archív patrí vám.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Označte svoje prvé 3 články — označené archívy sú o šesť mesiacov 10x užitočnejšie.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Otvoriť moju knižnicu",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Späť",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Ďalej",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Prejsť na stranu $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

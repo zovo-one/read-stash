@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: citește mai târziu local, înlocuitor Pocket",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Salvează articole, citește mai târziu. Etichete, căutare, mod de citire. Privat — colecția ta nu părăsește niciodată dispozitivul. Alternativă la Pocket.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Salvează această pagină în Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Salvează pagina curentă în Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Salvează această pagină",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Se salvează…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Salvat în colecția ta",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "Salvarea a eșuat — încearcă din nou",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Caută în colecția ta…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Deschide biblioteca completă",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "Colecția ta este goală",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Salvează prima ta pagină — apasă butonul de mai sus sau dă clic dreapta pe orice pagină sau link.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Niciun rezultat",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Încearcă o altă etichetă sau un alt termen de căutare.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Adaugă etichete (separate prin virgulă)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ min de citit",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Salvat $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Arhivează",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Trimite la arhivă",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Dezarhivează",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Șterge",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Articol șters",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Anulează",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Citește",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Deschide originalul",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Exportă",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Deblochează Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Sincronizare între dispozitive (metadate)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Export în JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Mementouri de citire (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Treci la Read Stash Pro pentru $price$ o singură dată",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "O singură plată. Al tău pentru totdeauna.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "Ai salvat $count$ articol(e). Pro adaugă sincronizarea pe toate dispozitivele tale.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "Perioadă de probă gratuită de $days$ zile",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Obține Pro — $price$ pe viață",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "Garanție de returnare a banilor în $days$ de zile. Fără abonament, fără reînnoire, fără colectare de date.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket a dispărut",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Biblioteca ta de citit mai târziu merită să supraviețuiască.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla a închis Pocket pe 8 iulie 2025. Milioane de utilizatori și-au pierdut biblioteca de citit mai târziu peste noapte. Mozilla a oferit o fereastră de export de 3 luni — cei mai mulți au ratat-o.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash este înlocuitorul care pune confidențialitatea pe primul loc. Fără cont. Fără cloud. Colecția ta nu părăsește niciodată dispozitivul.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Recuperează-ți lista de citit mai târziu",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Un clic. Salvat pentru totdeauna.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Apasă pe pictograma din bara de instrumente sau dă clic dreapta pe orice pagină. Read Stash preia titlul, extrasul, timpul de citire și imaginea de copertă — totul local.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Încearcă — salvează un articol de exemplu",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Salvat!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Am înțeles — arată-mi cum să adaug etichete",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Fă-l al tău.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Etichete implicite",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Aplicate automat de fiecare dată când salvezi.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Temă",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Pauză per domeniu",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Nu afișa solicitarea de salvare pe aceste domenii. Separate prin virgulă sau omite.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "ex. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Salvează preferințele mele",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "O singură plată. Al tău pentru totdeauna.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "Licență pe viață de $$99.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "Perioadă de probă gratuită de 7 zile — fără card pentru a începe.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "Garanție de returnare a banilor în 30 de zile.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Fără abonament. Fără cost per utilizator. Fără cost anual.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "Începe perioada de probă de 7 zile",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Poate mai târziu",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "Colecția ta îți aparține.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Adaugă etichete primelor tale 3 articole — colecțiile cu etichete sunt de 10 ori mai utile peste șase luni.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Deschide biblioteca mea",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Înapoi",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Înainte",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Mergi la pagina $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

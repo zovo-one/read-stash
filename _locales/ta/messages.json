@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: அக-கருவி பிறகு படிக்க, Pocket மாற்று",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "கட்டுரைகளைச் சேமித்து பிறகு படியுங்கள். குறிச்சொற்கள், தேடல், படிப்பு பயன்முறை. தனிப்பட்டது — உங்கள் தொகுப்பு சாதனத்தை விட்டு வெளியேறாது. Pocket மாற்று.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "இந்தப் பக்கத்தை Read Stash இல் சேமி",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "தற்போதைய பக்கத்தை Read Stash இல் சேமி",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "இந்தப் பக்கத்தைச் சேமி",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "சேமிக்கிறது…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "உங்கள் தொகுப்பில் சேமிக்கப்பட்டது",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "சேமிப்பு தோல்வியடைந்தது — மீண்டும் முயற்சிக்கவும்",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "உங்கள் தொகுப்பில் தேடுங்கள்…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "முழு நூலகத்தைத் திற",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "உங்கள் தொகுப்பு காலியாக உள்ளது",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "உங்கள் முதல் பக்கத்தைச் சேமியுங்கள் — மேலே உள்ள பொத்தானைக் கிளிக் செய்யவும், அல்லது எந்தப் பக்கத்திலோ இணைப்பிலோ வலது கிளிக் செய்யவும்.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "பொருத்தங்கள் இல்லை",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "வேறு குறிச்சொல் அல்லது தேடல் சொல்லை முயற்சிக்கவும்.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "குறிச்சொற்களைச் சேர் (காற்புள்ளியால் பிரிக்கப்பட்டவை)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ நிமிட படிப்பு",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "$when$ சேமிக்கப்பட்டது",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "காப்பகப்படுத்து",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "காப்பகத்திற்கு அனுப்பு",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "காப்பகத்திலிருந்து நீக்கு",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "நீக்கு",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "கட்டுரை நீக்கப்பட்டது",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "செயல்தவிர்",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "படி",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "மூலத்தைத் திற",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "ஏற்றுமதி செய்",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Read Stash Pro ஐ திறக்கவும்",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "சாதனங்களுக்கிடையேயான ஒத்திசைவு (மெட்டாதரவு)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "JSON, Markdown, HTML க்கு ஏற்றுமதி",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "படிப்பு நினைவூட்டல்கள் (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Read Stash Pro க்கு $price$ இல் ஒருமுறை மேம்படுத்தவும்",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "ஒரு கட்டணம். என்றென்றும் உங்களுடையது.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "நீங்கள் $count$ கட்டுரை(கள்) சேமித்துள்ளீர்கள். Pro உங்கள் அனைத்து சாதனங்களிலும் ஒத்திசைவைச் சேர்க்கிறது.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$-நாள் இலவச சோதனை",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pro பெறு — $price$ வாழ்நாள்",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$-நாள் பணத்தைத் திரும்பப் பெறும் உத்தரவாதம். சந்தா இல்லை, புதுப்பித்தல் இல்லை, தரவு சேகரிப்பு இல்லை.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket போய்விட்டது",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "உங்கள் பிறகு-படிக்க நூலகம் தொடர்ந்திருக்க தகுதியானது.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla ஜூலை 8, 2025 அன்று Pocket ஐ மூடியது. மில்லியன் கணக்கான பயனர்கள் ஒரே இரவில் தங்கள் பிறகு-படிக்க நூலகத்தை இழந்தனர். Mozilla மூன்று மாத ஏற்றுமதி காலத்தை வழங்கியது — பெரும்பாலானோர் அதைத் தவறவிட்டனர்.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash என்பது தனியுரிமைக்கு முதலிடம் தரும் மாற்று. கணக்கு இல்லை. கிளவுட் இல்லை. உங்கள் தொகுப்பு சாதனத்தை விட்டு வெளியேறாது.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "உங்கள் பிறகு-படிக்கவை மீட்டெடுங்கள்",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "ஒரு கிளிக். என்றென்றும் சேமிக்கப்பட்டது.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "கருவிப்பட்டை ஐகானைக் கிளிக் செய்யவும் அல்லது எந்தப் பக்கத்திலும் வலது கிளிக் செய்யவும். Read Stash தலைப்பு, சுருக்கம், படிப்பு நேரம் மற்றும் அட்டைப் படத்தைப் பெறுகிறது — அனைத்தும் அக-கருவியில்.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "முயற்சிக்கவும் — ஒரு மாதிரி கட்டுரையைச் சேமிக்கவும்",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "சேமிக்கப்பட்டது!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "புரிந்தது — குறிச்சொல் இடுவது எப்படி என்று காட்டு",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "இதை உங்களுடையதாக்குங்கள்.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "இயல்புநிலை குறிச்சொற்கள்",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "நீங்கள் சேமிக்கும் ஒவ்வொரு முறையும் தானாகப் பயன்படுத்தப்படும்.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "தீம்",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "ஒவ்வொரு டொமைனுக்கும் இடைநிறுத்தம்",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "இந்த டொமைன்களில் சேமிப்பு அறிவிப்பைக் காட்ட வேண்டாம். காற்புள்ளியால் பிரிக்கவும், அல்லது தவிர்க்கவும்.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "எ.கா. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "எனது விருப்பங்களைச் சேமி",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "ஒரு கட்டணம். என்றென்றும் உங்களுடையது.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 வாழ்நாள் உரிமம்.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7-நாள் இலவச சோதனை — தொடங்க அட்டை தேவையில்லை.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30-நாள் பணத்தைத் திரும்பப் பெறும் உத்தரவாதம்.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "சந்தா இல்லை. ஒவ்வொரு இருக்கைக்கும் கட்டணம் இல்லை. ஒவ்வொரு ஆண்டுக்கும் கட்டணம் இல்லை.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "7-நாள் சோதனையைத் தொடங்கு",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "பிறகு பார்க்கலாம்",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "உங்கள் தொகுப்பு உங்களுடையது.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "உங்கள் முதல் 3 கட்டுரைகளுக்கு குறிச்சொல் இடுங்கள் — குறிச்சொல் இடப்பட்ட தொகுப்புகள் ஆறு மாதங்களில் 10x அதிக பயனுள்ளதாக இருக்கும்.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "எனது நூலகத்தைத் திற",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "பின்",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "அடுத்து",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "பக்கம் $n$ க்குச் செல்",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

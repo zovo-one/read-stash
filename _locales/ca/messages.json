@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: llegir més tard local, alternativa a Pocket",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Desa articles, llegeix-los més tard. Etiquetes, cerca, mode lectura. Privat — la teva col·lecció mai surt del teu dispositiu. Alternativa a Pocket.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Desa aquesta pàgina a Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Desa la pàgina actual a Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Desa aquesta pàgina",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "S'està desant…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Desat a la teva col·lecció",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "No s'ha pogut desar — torna-ho a provar",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Cerca a la teva col·lecció…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Obre la biblioteca completa",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "La teva col·lecció és buida",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Desa la teva primera pàgina — fes clic al botó de dalt o fes clic dret a qualsevol pàgina o enllaç.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Cap coincidència",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Prova una etiqueta o un terme de cerca diferent.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Afegeix etiquetes (separades per comes)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ min de lectura",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Desat $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Arxiva",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Envia a l'arxiu",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Treu de l'arxiu",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Suprimeix",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Article suprimit",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Desfés",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Llegeix",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Obre l'original",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Exporta",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Desbloqueja Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Sincronització entre dispositius (metadades)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Exporta a JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Recordatoris de lectura (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Actualitza a Read Stash Pro per $price$ un sol cop",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Un sol pagament. Teu per sempre.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "Has desat $count$ article(s). Pro afegeix sincronització a tots els teus dispositius.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "Prova gratuïta de $days$ dies",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Aconsegueix Pro — $price$ de per vida",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "Garantia de devolució de $days$ dies. Sense subscripció, sense renovació, sense recollida de dades.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket ja no hi és",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "La teva biblioteca de llegir més tard mereix sobreviure.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla va tancar Pocket el 8 de juliol de 2025. Milions d'usuaris van perdre la seva biblioteca de llegir més tard d'un dia per l'altre. Mozilla va donar un període d'exportació de 3 mesos — la majoria el van perdre.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash és l'alternativa amb la privadesa primer. Sense compte. Sense núvol. La teva col·lecció mai surt del teu dispositiu.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Recupera el teu llegir més tard",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Un clic. Desat per sempre.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Fes clic a la icona de la barra d'eines o fes clic dret a qualsevol pàgina. Read Stash extreu el títol, l'extracte, el temps de lectura i la imatge de portada — tot localment.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Prova-ho — desa un article d'exemple",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Desat!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Entesos — mostra'm com etiquetar",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Fes-lo teu.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Etiquetes per defecte",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "S'apliquen automàticament cada cop que deses.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Tema",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Pausa per domini",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "No mostris l'avís de desat en aquests dominis. Separats per comes, o omet-ho.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "p. ex. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Desa les meves preferències",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Un sol pagament. Teu per sempre.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "Llicència de per vida de $$99.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "Prova gratuïta de 7 dies — no cal targeta per començar.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "Garantia de devolució de 30 dies.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Sense subscripció. Sense pagament per usuari. Sense pagament anual.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "Comença la prova de 7 dies",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Potser més tard",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "La teva col·lecció és teva.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Etiqueta els teus primers 3 articles — les col·leccions etiquetades són 10 vegades més útils d'aquí a sis mesos.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Obre la meva biblioteca",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Enrere",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Següent",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Vés a la pàgina $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

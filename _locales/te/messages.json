@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: లోకల్ తర్వాత చదవండి, Pocket ప్రత్యామ్నాయం",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "వ్యాసాలను సేవ్ చేసి తర్వాత చదవండి. ట్యాగ్‌లు, శోధన, రీడర్ మోడ్. ప్రైవేట్ — మీ స్టాష్ మీ పరికరాన్ని విడిచిపెట్టదు. Pocket ప్రత్యామ్నాయం.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "ఈ పేజీని Read Stash లో సేవ్ చేయండి",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "ప్రస్తుత పేజీని Read Stash లో సేవ్ చేయండి",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "ఈ పేజీని సేవ్ చేయండి",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "సేవ్ చేస్తోంది…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "మీ స్టాష్‌లో సేవ్ చేయబడింది",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "సేవ్ విఫలమైంది — మళ్లీ ప్రయత్నించండి",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "మీ స్టాష్‌లో శోధించండి…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "పూర్తి లైబ్రరీని తెరవండి",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "మీ స్టాష్ ఖాళీగా ఉంది",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "మీ మొదటి పేజీని సేవ్ చేయండి — పైన ఉన్న బటన్‌ను క్లిక్ చేయండి, లేదా ఏదైనా పేజీ లేదా లింక్‌పై కుడి-క్లిక్ చేయండి.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "సరిపోలికలు లేవు",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "వేరే ట్యాగ్ లేదా శోధన పదాన్ని ప్రయత్నించండి.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "ట్యాగ్‌లను జోడించండి (కామాతో వేరు చేయబడినవి)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ నిమిషాల చదువు",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "$when$ సేవ్ చేయబడింది",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "ఆర్కైవ్ చేయండి",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "ఆర్కైవ్‌కు పంపండి",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "ఆర్కైవ్ నుండి తీసివేయండి",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "తొలగించండి",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "వ్యాసం తొలగించబడింది",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "రద్దు చేయండి",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "చదవండి",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "అసలుది తెరవండి",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "ఎగుమతి చేయండి",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Read Stash Pro ను అన్‌లాక్ చేయండి",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "పరికరాల మధ్య సమకాలీకరణ (మెటాడేటా)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "JSON, Markdown, HTML కు ఎగుమతి",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "చదువు రిమైండర్‌లు (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Read Stash Pro కు $price$ కు ఒకసారి అప్‌గ్రేడ్ చేయండి",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "ఒక చెల్లింపు. ఎప్పటికీ మీది.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "మీరు $count$ వ్యాసా(లు) స్టాష్ చేశారు. Pro మీ అన్ని పరికరాల మధ్య సమకాలీకరణను జోడిస్తుంది.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$-రోజుల ఉచిత ట్రయల్",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pro పొందండి — $price$ జీవితకాలం",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$-రోజుల డబ్బు-తిరిగి-ఇచ్చే హామీ. సబ్‌స్క్రిప్షన్ లేదు, పునరుద్ధరణ లేదు, డేటా సేకరణ లేదు.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket పోయింది",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "మీ తర్వాత-చదవండి లైబ్రరీ మనుగడకు అర్హమైనది.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla జూలై 8, 2025 న Pocket ను మూసివేసింది. లక్షలాది వినియోగదారులు ఒక్క రాత్రిలో తమ తర్వాత-చదవండి లైబ్రరీని కోల్పోయారు. Mozilla మూడు-నెలల ఎగుమతి విండోను ఇచ్చింది — చాలామంది దాన్ని కోల్పోయారు.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash అనేది గోప్యతకు ప్రాధాన్యత ఇచ్చే ప్రత్యామ్నాయం. ఖాతా లేదు. క్లౌడ్ లేదు. మీ స్టాష్ మీ పరికరాన్ని విడిచిపెట్టదు.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "మీ తర్వాత-చదవండిని తిరిగి పొందండి",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "ఒక క్లిక్. ఎప్పటికీ సేవ్ చేయబడింది.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "టూల్‌బార్ ఐకాన్‌ను క్లిక్ చేయండి లేదా ఏదైనా పేజీపై కుడి-క్లిక్ చేయండి. Read Stash శీర్షిక, సారాంశం, చదువు సమయం మరియు కవర్ చిత్రాన్ని లాగుతుంది — అన్నీ లోకల్‌గా.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "ప్రయత్నించండి — ఒక నమూనా వ్యాసాన్ని సేవ్ చేయండి",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "సేవ్ చేయబడింది!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "అర్థమైంది — ట్యాగ్ చేయడం ఎలాగో చూపించండి",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "దీన్ని మీదిగా చేసుకోండి.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "డిఫాల్ట్ ట్యాగ్‌లు",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "మీరు సేవ్ చేసిన ప్రతిసారీ స్వయంచాలకంగా వర్తించబడతాయి.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "థీమ్",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "ప్రతి డొమైన్‌కు పాజ్",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "ఈ డొమైన్‌లలో సేవ్ ప్రాంప్ట్‌ను చూపించవద్దు. కామాతో వేరు చేయండి, లేదా దాటవేయండి.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "ఉదా. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "నా ప్రాధాన్యతలను సేవ్ చేయండి",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "ఒక చెల్లింపు. ఎప్పటికీ మీది.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 జీవితకాల లైసెన్స్.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7-రోజుల ఉచిత ట్రయల్ — ప్రారంభించడానికి కార్డ్ అవసరం లేదు.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30-రోజుల డబ్బు-తిరిగి-ఇచ్చే హామీ.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "సబ్‌స్క్రిప్షన్ లేదు. ప్రతి సీటుకు లేదు. ప్రతి సంవత్సరానికి లేదు.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "7-రోజుల ట్రయల్ ప్రారంభించండి",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "బహుశా తర్వాత",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "మీ స్టాష్ మీది.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "మీ మొదటి 3 వ్యాసాలను ట్యాగ్ చేయండి — ట్యాగ్ చేసిన స్టాష్‌లు ఆరు నెలల తర్వాత 10x ఎక్కువ ఉపయోగకరంగా ఉంటాయి.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "నా లైబ్రరీని తెరవండి",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "వెనుకకు",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "తదుపరి",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "పేజీ $n$ కు వెళ్లండి",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

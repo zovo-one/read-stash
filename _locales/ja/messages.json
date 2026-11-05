@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: ローカルあとで読む、Pocket 代替",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "記事を保存してあとで読む。タグ、検索、リーダーモード搭載。プライベート — スタッシュは端末から外部に送信されません。Pocket 代替。",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "このページを Read Stash に保存",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "現在のページを Read Stash に保存",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "このページを保存",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "保存中…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "スタッシュに保存しました",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "保存に失敗しました — もう一度お試しください",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "スタッシュを検索…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "ライブラリ全体を開く",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "スタッシュは空です",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "最初のページを保存しましょう — 上のボタンをクリックするか、任意のページやリンクを右クリックしてください。",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "一致する結果はありません",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "別のタグや検索語をお試しください。",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "タグを追加 (カンマ区切り)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "約 $n$ 分",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "$when$ に保存",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "アーカイブ",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "アーカイブへ送る",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "アーカイブ解除",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "削除",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "記事を削除しました",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "元に戻す",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "読む",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "オリジナルを開く",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "エクスポート",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Read Stash Pro を解除",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "クロスデバイス同期 (メタデータ)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "JSON、Markdown、HTML へエクスポート",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "リーディング通知 (D3、D7、D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "$price$ で Read Stash Pro にアップグレード",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "一度の支払い。ずっとあなたのもの。",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "$count$ 件の記事をスタッシュしました。Pro ではすべてのデバイス間で同期できます。",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$ 日間の無料トライアル",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pro を取得 — $price$ 永久ライセンス",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$ 日間の返金保証。サブスクリプションなし、更新なし、データ収集なし。",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket は終わりました",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "あなたのあとで読むライブラリは、残されるべきです。",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla は 2025 年 7 月 8 日に Pocket を終了しました。数百万人のユーザーが一晩であとで読むライブラリを失いました。Mozilla は 3 か月のエクスポート期間を設けましたが、ほとんどの方が見逃しました。",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash はプライバシー第一の代替です。アカウントなし。クラウドなし。スタッシュは端末から外部に送信されません。",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "あとで読むを取り戻す",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "ワンクリック。永久に保存。",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "ツールバーアイコンをクリックするか、任意のページを右クリックしてください。Read Stash がタイトル、要約、読了時間、カバー画像をすべてローカルで取得します。",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "試してみる — サンプル記事を保存",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "保存しました",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "了解 — タグの使い方を見る",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "自分好みにカスタマイズ。",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "デフォルトタグ",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "保存のたびに自動的に適用されます。",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "テーマ",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "ドメインごとの一時停止",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "これらのドメインでは保存プロンプトを表示しません。カンマ区切りで入力、または空欄のままにしてください。",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "例: mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "設定を保存",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "一度の支払い。ずっとあなたのもの。",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 永久ライセンス。",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7 日間の無料トライアル — 開始にカードは不要です。",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30 日間の返金保証。",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "サブスクリプションなし。ユーザー数課金なし。年額課金なし。",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "7 日間トライアルを開始",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "また後で",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "あなたのスタッシュはあなたのもの。",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "最初の 3 記事にタグをつけましょう — タグ付きスタッシュは 6 か月後に 10 倍役立ちます。",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "ライブラリを開く",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "戻る",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "次へ",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "ページ $n$ へ移動",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

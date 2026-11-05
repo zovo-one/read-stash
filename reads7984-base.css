@@ -1,0 +1,247 @@
+/* ============================================================================
+ * reads7984-base.css —  Read Stash brand design tokens
+ * ----------------------------------------------------------------------------
+ * The single shared stylesheet for the Read Stash UI family. Defines brand
+ * design tokens (colors, type scale, radii, shadows, gaps) as CSS custom
+ * properties, plus a minimal reset and base typography. Import FIRST, before
+ * any per-page stylesheet, so tokens cascade down:
+ *     <link rel="stylesheet" href="reads7984-base.css">
+ *     <link rel="stylesheet" href="popup.css">
+ *
+ * WCAG 2.1 AA contrast ratios (light mode, verified against background):
+ *   - --reads7984-text-primary on --reads7984-surface-0:    #0F0F1A on #FFFFFF = 17.4:1
+ *   - --reads7984-text-secondary on --reads7984-surface-0:  #4B5563 on #FFFFFF = 7.5:1
+ *   - --reads7984-text-primary on --reads7984-surface-1:    #0F0F1A on #F8F9FB = 15.7:1
+ *   - --reads7984-text-primary on --reads7984-accent-soft:  #0F0F1A on #F0EBFF = 14.8:1
+ *   - --reads7984-accent-strong on --reads7984-accent-soft:  #5B3AE0 on #F0EBFF = 5.77:1
+ *   - --reads7984-good on --reads7984-surface-0:             #16834A on #FFFFFF = 4.80:1
+ *   - --reads7984-warn on --reads7984-surface-0:             #B16306 on #FFFFFF = 4.51:1
+ * Dark mode parity: --reads7984-text-primary on --reads7984-surface-0
+ *   (#F5F5FA on #0F0F1A) = 17.2:1 (AAA).
+ * ========================================================================== */
+
+/* ---- Minimal reset -------------------------------------------------------- */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--reads7984-font-system);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--reads7984-text-primary);
+  background: var(--reads7984-surface-0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, figure {
+  margin: 0;
+  padding: 0;
+}
+
+button { font: inherit; color: inherit; }
+a { color: var(--reads7984-accent-strong); }
+
+/* ---- Design tokens (light / default) -------------------------------------- */
+:root {
+  /* Surfaces */
+  --reads7984-surface-0:   #FFFFFF;   /* page background                          */
+  --reads7984-surface-1:   #F8F9FB;   /* card / panel fill                        */
+  --reads7984-surface-2:   #F0F1F5;   /* raised card / hover fill                 */
+
+  /* Text — --reads7984-text-secondary on --reads7984-surface-2 fails AA for <14px;
+   * override per-section when placing secondary text on surface-2. */
+  --reads7984-text-primary:   #0F0F1A;   /* 17.4:1 on surface-0                   */
+  --reads7984-text-secondary: #4B5563;   /* 7.5:1 on surface-0 (AAA normal)       */
+
+  /* Brand accent ( purple) — AA on white for ≥14px text.
+   * --reads7984-accent-strong is the darker variant for link text placed on
+   * --reads7984-accent-soft tinted fills, where the base accent only reaches
+   * 4.43:1 (below AA).  --reads7984-accent-strong satisfies 5.77:1 on the tint. */
+  --reads7984-accent:        #6D4AFF;
+  --reads7984-accent-strong: #5B3AE0;
+  --reads7984-accent-soft:   #F0EBFF;
+  --reads7984-accent-fg:     #FFFFFF;
+
+  /* Semantic colors (darkened for WCAG AA on white at <14px) */
+  --reads7984-good:    #16834A;      /* 4.80:1 on white, 4.55:1 on surface-1    */
+  --reads7984-warn:    #B16306;      /* 4.51:1 on white                         */
+  --reads7984-danger:  #DC2626;      /* 4.83:1 on white                         */
+
+  /* Border */
+  --reads7984-border:  #E5E7EB;
+
+  /* Spacing scale */
+  --reads7984-space-1: 4px;
+  --reads7984-space-2: 8px;
+  --reads7984-space-3: 12px;
+  --reads7984-space-4: 16px;
+  --reads7984-space-5: 20px;
+  --reads7984-space-6: 24px;
+  --reads7984-space-7: 32px;
+  --reads7984-space-8: 40px;
+
+  /* Typography */
+  --reads7984-font-system: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --reads7984-font-serif:  Georgia, 'Times New Roman', serif;
+  --reads7984-font-mono:   'SF Mono', 'Fira Code', 'Consolas', monospace;
+
+  /* Font sizes */
+  --reads7984-fs-caption: 11px;
+  --reads7984-fs-body:    14px;
+  --reads7984-fs-heading: 18px;
+  --reads7984-fs-title:   22px;
+
+  /* Border radius */
+  --reads7984-radius-sm:   6px;
+  --reads7984-radius:      10px;
+  --reads7984-radius-lg:   14px;
+  --reads7984-radius-pill: 9999px;
+
+  /* Shadows */
+  --reads7984-shadow:    0 1px 2px rgba(16,24,40,0.04), 0 4px 12px -4px rgba(16,24,40,0.10);
+  --reads7984-shadow-lg: 0 12px 32px -8px rgba(16,24,40,0.22);
+
+  /* Z-index */
+  --reads7984-z-base:    1;
+  --reads7984-z-overlay: 100;
+  --reads7984-z-toast:   1000;
+  --reads7984-z-modal:   2000;
+}
+
+/* ---- Dark mode (auto via prefers-color-scheme) ---------------------------- */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --reads7984-surface-0:       #0F0F1A;
+    --reads7984-surface-1:       #1A1A2E;
+    --reads7984-surface-2:       #252540;
+    --reads7984-text-primary:    #F5F5FA;     /* 17.2:1 on surface-0             */
+    --reads7984-text-secondary:  #A1A1B5;     /* 7.6:1 on surface-0              */
+    --reads7984-border:          #2E2E45;
+    --reads7984-accent:          #8B6BFF;
+    --reads7984-accent-strong:   #9D85FF;     /* lighter on dark tint            */
+    --reads7984-accent-soft:     #1F1B40;
+    --reads7984-good:            #2DBE6C;     /* brightened for dark bg          */
+    --reads7984-warn:            #E89A3C;     /* brightened for dark bg          */
+    --reads7984-danger:          #F05555;     /* brightened for dark bg          */
+    --reads7984-shadow:    0 1px 2px rgba(0,0,0,0.3), 0 6px 16px -4px rgba(0,0,0,0.5);
+    --reads7984-shadow-lg: 0 12px 32px -8px rgba(0,0,0,0.65);
+  }
+}
+
+/* ---- Dark mode (explicit via data-theme) ---------------------------------- */
+:root[data-theme='dark'] {
+  --reads7984-surface-0:       #0F0F1A;
+  --reads7984-surface-1:       #1A1A2E;
+  --reads7984-surface-2:       #252540;
+  --reads7984-text-primary:    #F5F5FA;
+  --reads7984-text-secondary:  #A1A1B5;
+  --reads7984-border:          #2E2E45;
+  --reads7984-accent:          #8B6BFF;
+  --reads7984-accent-strong:   #9D85FF;
+  --reads7984-accent-soft:     #1F1B40;
+  --reads7984-good:            #2DBE6C;
+  --reads7984-warn:            #E89A3C;
+  --reads7984-danger:          #F05555;
+  --reads7984-shadow:    0 1px 2px rgba(0,0,0,0.3), 0 6px 16px -4px rgba(0,0,0,0.5);
+  --reads7984-shadow-lg: 0 12px 32px -8px rgba(0,0,0,0.65);
+}
+
+/* ---- Shared button styles ------------------------------------------------- */
+.reads7984-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--reads7984-space-2);
+  padding: var(--reads7984-space-2) var(--reads7984-space-4);
+  border: 1px solid transparent;
+  border-radius: var(--reads7984-radius-sm);
+  font-size: var(--reads7984-fs-body);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.reads7984-btn--primary {
+  background: var(--reads7984-accent);
+  color: var(--reads7984-accent-fg);
+}
+.reads7984-btn--primary:hover {
+  background: var(--reads7984-accent-strong);
+}
+
+.reads7984-btn--secondary {
+  background: var(--reads7984-surface-1);
+  color: var(--reads7984-text-primary);
+  border-color: var(--reads7984-border);
+}
+.reads7984-btn--secondary:hover {
+  background: var(--reads7984-surface-2);
+}
+
+.reads7984-btn--ghost {
+  background: transparent;
+  color: var(--reads7984-text-secondary);
+}
+.reads7984-btn--ghost:hover {
+  color: var(--reads7984-text-primary);
+  background: var(--reads7984-surface-1);
+}
+
+/* ---- Shared card ---------------------------------------------------------- */
+.reads7984-card {
+  background: var(--reads7984-surface-1);
+  border: 1px solid var(--reads7984-border);
+  border-radius: var(--reads7984-radius);
+  box-shadow: var(--reads7984-shadow);
+}
+
+/* ---- Shared badge --------------------------------------------------------- */
+.reads7984-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--reads7984-space-1) var(--reads7984-space-2);
+  border-radius: var(--reads7984-radius-pill);
+  font-size: var(--reads7984-fs-caption);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ---- Shared input --------------------------------------------------------- */
+.reads7984-input {
+  width: 100%;
+  padding: var(--reads7984-space-2) var(--reads7984-space-3);
+  border: 1px solid var(--reads7984-border);
+  border-radius: var(--reads7984-radius-sm);
+  font-size: var(--reads7984-fs-body);
+  font-family: inherit;
+  color: var(--reads7984-text-primary);
+  background: var(--reads7984-surface-0);
+}
+.reads7984-input:focus {
+  outline: 2px solid var(--reads7984-accent);
+  outline-offset: -1px;
+  border-color: var(--reads7984-accent);
+}
+.reads7984-input::placeholder {
+  color: var(--reads7984-text-secondary);
+  opacity: 0.7;
+}
+
+/* ---- Reduced motion ------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}

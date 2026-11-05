@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: ലോക്കൽ പിന്നീട്-വായിക്കൽ, Pocket പകരം",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "ലേഖനങ്ങൾ സംരക്ഷിക്കൂ, പിന്നീട് വായിക്കൂ. ടാഗുകൾ, തിരയൽ, റീഡർ മോഡ്. സ്വകാര്യം — നിങ്ങളുടെ ശേഖരം ഉപകരണം വിടില്ല. Pocket ബദൽ.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "ഈ പേജ് Read Stash-ലേക്ക് സംരക്ഷിക്കൂ",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "നിലവിലെ പേജ് Read Stash-ലേക്ക് സംരക്ഷിക്കൂ",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "ഈ പേജ് സംരക്ഷിക്കൂ",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "സംരക്ഷിക്കുന്നു…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "നിങ്ങളുടെ ശേഖരത്തിലേക്ക് സംരക്ഷിച്ചു",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "സംരക്ഷണം പരാജയപ്പെട്ടു — വീണ്ടും ശ്രമിക്കൂ",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "നിങ്ങളുടെ ശേഖരത്തിൽ തിരയൂ…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "പൂർണ്ണ ലൈബ്രറി തുറക്കൂ",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "നിങ്ങളുടെ ശേഖരം ശൂന്യമാണ്",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "നിങ്ങളുടെ ആദ്യ പേജ് സംരക്ഷിക്കൂ — മുകളിലെ ബട്ടൺ ക്ലിക്ക് ചെയ്യൂ, അല്ലെങ്കിൽ ഏതെങ്കിലും പേജിലോ ലിങ്കിലോ റൈറ്റ്-ക്ലിക്ക് ചെയ്യൂ.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "പൊരുത്തങ്ങളില്ല",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "മറ്റൊരു ടാഗ് അല്ലെങ്കിൽ തിരയൽ പദം ശ്രമിക്കൂ.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "ടാഗുകൾ ചേർക്കൂ (കോമ കൊണ്ട് വേർതിരിക്കുക)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ മിനിറ്റ് വായന",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "$when$ സംരക്ഷിച്ചു",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "ആർക്കൈവ്",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "ആർക്കൈവിലേക്ക് അയയ്ക്കൂ",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "ആർക്കൈവ് ഒഴിവാക്കൂ",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "ഇല്ലാതാക്കൂ",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "ലേഖനം ഇല്ലാതാക്കി",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "പഴയപടിയാക്കൂ",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "വായിക്കൂ",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "ഒറിജിനൽ തുറക്കൂ",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "കയറ്റുമതി",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Read Stash Pro അൺലോക്ക് ചെയ്യൂ",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "ഉപകരണങ്ങൾക്കിടയിൽ സമന്വയം (മെറ്റാഡാറ്റ)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "JSON, Markdown, HTML-ലേക്ക് കയറ്റുമതി",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "വായന ഓർമ്മപ്പെടുത്തലുകൾ (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Read Stash Pro-ലേക്ക് $price$-ന് ഒരിക്കൽ അപ്‌ഗ്രേഡ് ചെയ്യൂ",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "ഒരു പേയ്‌മെന്റ്. എന്നേക്കും നിങ്ങളുടേത്.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "നിങ്ങൾ $count$ ലേഖനം(ങ്ങൾ) ശേഖരിച്ചു. Pro നിങ്ങളുടെ എല്ലാ ഉപകരണങ്ങൾക്കിടയിലും സമന്വയം ചേർക്കുന്നു.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$-ദിവസ സൗജന്യ ട്രയൽ",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pro നേടൂ — $price$ ആജീവനാന്തം",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$-ദിവസ പണം തിരികെ ഗ്യാരണ്ടി. സബ്‌സ്‌ക്രിപ്‌ഷനില്ല, പുതുക്കലില്ല, ഡാറ്റ ശേഖരണമില്ല.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket ഇല്ലാതായി",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "നിങ്ങളുടെ പിന്നീട്-വായിക്കൽ ലൈബ്രറി അതിജീവിക്കാൻ അർഹമാണ്.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla 2025 ജൂലൈ 8-ന് Pocket അടച്ചു. ദശലക്ഷക്കണക്കിന് ഉപയോക്താക്കൾക്ക് അവരുടെ പിന്നീട്-വായിക്കൽ ലൈബ്രറി ഒറ്റരാത്രികൊണ്ട് നഷ്ടമായി. Mozilla 3-മാസ കയറ്റുമതി കാലയളവ് നൽകി — മിക്കവരും അത് നഷ്ടപ്പെടുത്തി.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash ആണ് സ്വകാര്യത-ആദ്യ പകരം. അക്കൗണ്ടില്ല. ക്ലൗഡില്ല. നിങ്ങളുടെ ശേഖരം ഉപകരണം വിടില്ല.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "നിങ്ങളുടെ പിന്നീട്-വായിക്കൽ തിരികെ നേടൂ",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "ഒരു ക്ലിക്ക്. എന്നേക്കും സംരക്ഷിച്ചു.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "ടൂൾബാർ ഐക്കൺ ക്ലിക്ക് ചെയ്യൂ അല്ലെങ്കിൽ ഏതെങ്കിലും പേജിൽ റൈറ്റ്-ക്ലിക്ക് ചെയ്യൂ. Read Stash ശീർഷകം, സംഗ്രഹം, വായന സമയം, കവർ ചിത്രം എന്നിവ വലിച്ചെടുക്കുന്നു — എല്ലാം ലോക്കലായി.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "ശ്രമിക്കൂ — ഒരു സാമ്പിൾ ലേഖനം സംരക്ഷിക്കൂ",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "സംരക്ഷിച്ചു!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "മനസ്സിലായി — എങ്ങനെ ടാഗ് ചെയ്യണമെന്ന് കാണിക്കൂ",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "ഇത് നിങ്ങളുടേതാക്കൂ.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "ഡിഫോൾട്ട് ടാഗുകൾ",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "നിങ്ങൾ സംരക്ഷിക്കുന്ന ഓരോ തവണയും സ്വയമേവ പ്രയോഗിക്കുന്നു.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "തീം",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "ഓരോ ഡൊമെയ്ൻ താൽക്കാലിക നിർത്തൽ",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "ഈ ഡൊമെയ്‌നുകളിൽ സംരക്ഷണ പ്രോംപ്റ്റ് കാണിക്കരുത്. കോമ കൊണ്ട് വേർതിരിക്കുക, അല്ലെങ്കിൽ ഒഴിവാക്കുക.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "ഉദാ. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "എന്റെ മുൻഗണനകൾ സംരക്ഷിക്കൂ",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "ഒരു പേയ്‌മെന്റ്. എന്നേക്കും നിങ്ങളുടേത്.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 ആജീവനാന്ത ലൈസൻസ്.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7-ദിവസ സൗജന്യ ട്രയൽ — ആരംഭിക്കാൻ കാർഡ് ആവശ്യമില്ല.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30-ദിവസ പണം തിരികെ ഗ്യാരണ്ടി.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "സബ്‌സ്‌ക്രിപ്‌ഷനില്ല. ഓരോ സീറ്റിനില്ല. ഓരോ വർഷത്തിനില്ല.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "7-ദിവസ ട്രയൽ ആരംഭിക്കൂ",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "ഒരുപക്ഷേ പിന്നീട്",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "നിങ്ങളുടെ ശേഖരം നിങ്ങളുടേതാണ്.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "നിങ്ങളുടെ ആദ്യ 3 ലേഖനങ്ങൾ ടാഗ് ചെയ്യൂ — ടാഗ് ചെയ്ത ശേഖരങ്ങൾ ആറ് മാസത്തിന് ശേഷം 10x കൂടുതൽ ഉപയോഗപ്രദമാണ്.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "എന്റെ ലൈബ്രറി തുറക്കൂ",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "പിന്നോട്ട്",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "അടുത്തത്",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "പേജ് $n$-ലേക്ക് പോകൂ",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: ಸ್ಥಳೀಯ ನಂತರ-ಓದಿ, Pocket ಬದಲಿ",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "ಲೇಖನಗಳನ್ನು ಉಳಿಸಿ, ನಂತರ ಓದಿ. ಟ್ಯಾಗ್‌ಗಳು, ಹುಡುಕಾಟ, ರೀಡರ್ ಮೋಡ್. ಖಾಸಗಿ — ನಿಮ್ಮ ಸಂಗ್ರಹ ನಿಮ್ಮ ಸಾಧನ ಬಿಡುವುದಿಲ್ಲ. Pocket ಪರ್ಯಾಯ.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "ಈ ಪುಟವನ್ನು Read Stash ಗೆ ಉಳಿಸಿ",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "ಪ್ರಸ್ತುತ ಪುಟವನ್ನು Read Stash ಗೆ ಉಳಿಸಿ",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "ಈ ಪುಟವನ್ನು ಉಳಿಸಿ",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "ಉಳಿಸಲಾಗುತ್ತಿದೆ…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "ನಿಮ್ಮ ಸಂಗ್ರಹಕ್ಕೆ ಉಳಿಸಲಾಗಿದೆ",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "ಉಳಿಸುವಿಕೆ ವಿಫಲವಾಗಿದೆ — ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "ನಿಮ್ಮ ಸಂಗ್ರಹದಲ್ಲಿ ಹುಡುಕಿ…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "ಪೂರ್ಣ ಗ್ರಂಥಾಲಯ ತೆರೆಯಿರಿ",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "ನಿಮ್ಮ ಸಂಗ್ರಹ ಖಾಲಿ ಇದೆ",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "ನಿಮ್ಮ ಮೊದಲ ಪುಟವನ್ನು ಉಳಿಸಿ — ಮೇಲಿನ ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ, ಅಥವಾ ಯಾವುದೇ ಪುಟ ಅಥವಾ ಲಿಂಕ್ ಮೇಲೆ ಬಲ-ಕ್ಲಿಕ್ ಮಾಡಿ.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "ಯಾವುದೇ ಹೊಂದಿಕೆಗಳಿಲ್ಲ",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "ಬೇರೆ ಟ್ಯಾಗ್ ಅಥವಾ ಹುಡುಕಾಟ ಪದ ಪ್ರಯತ್ನಿಸಿ.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "ಟ್ಯಾಗ್‌ಗಳನ್ನು ಸೇರಿಸಿ (ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿ)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ ನಿಮಿಷ ಓದು",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "$when$ ಉಳಿಸಲಾಗಿದೆ",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "ಆರ್ಕೈವ್",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "ಆರ್ಕೈವ್‌ಗೆ ಕಳುಹಿಸಿ",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "ಆರ್ಕೈವ್ ರದ್ದುಗೊಳಿಸಿ",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "ಅಳಿಸಿ",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "ಲೇಖನ ಅಳಿಸಲಾಗಿದೆ",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "ಹಿಂತಿರುಗಿಸಿ",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "ಓದಿ",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "ಮೂಲವನ್ನು ತೆರೆಯಿರಿ",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "ರಫ್ತು",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Read Stash Pro ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "ಸಾಧನಗಳ ನಡುವೆ ಸಿಂಕ್ (ಮೆಟಾಡೇಟಾ)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "JSON, Markdown, HTML ಗೆ ರಫ್ತು",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "ಓದುವ ಜ್ಞಾಪನೆಗಳು (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Read Stash Pro ಅನ್ನು $price$ ಕ್ಕೆ ಒಮ್ಮೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "ಒಂದೇ ಪಾವತಿ. ಶಾಶ್ವತವಾಗಿ ನಿಮ್ಮದು.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "ನೀವು $count$ ಲೇಖನ(ಗಳನ್ನು) ಸಂಗ್ರಹಿಸಿದ್ದೀರಿ. Pro ನಿಮ್ಮ ಎಲ್ಲಾ ಸಾಧನಗಳ ನಡುವೆ ಸಿಂಕ್ ಸೇರಿಸುತ್ತದೆ.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$-ದಿನ ಉಚಿತ ಪ್ರಯೋಗ",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pro ಪಡೆಯಿರಿ — $price$ ಜೀವಮಾನ",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$-ದಿನ ಹಣ-ವಾಪಸಾತಿ ಖಾತರಿ. ಚಂದಾದಾರಿಕೆ ಇಲ್ಲ, ನವೀಕರಣ ಇಲ್ಲ, ಡೇಟಾ ಸಂಗ್ರಹ ಇಲ್ಲ.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket ಇನ್ನಿಲ್ಲ",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "ನಿಮ್ಮ ನಂತರ-ಓದಿ ಗ್ರಂಥಾಲಯ ಉಳಿಯಲು ಅರ್ಹವಾಗಿದೆ.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla ಜುಲೈ 8, 2025 ರಂದು Pocket ಅನ್ನು ಮುಚ್ಚಿತು. ಲಕ್ಷಾಂತರ ಬಳಕೆದಾರರು ತಮ್ಮ ನಂತರ-ಓದಿ ಗ್ರಂಥಾಲಯವನ್ನು ರಾತ್ರೋರಾತ್ರಿ ಕಳೆದುಕೊಂಡರು. Mozilla 3-ತಿಂಗಳ ರಫ್ತು ಅವಧಿ ನೀಡಿತು — ಹೆಚ್ಚಿನವರು ಅದನ್ನು ತಪ್ಪಿಸಿಕೊಂಡರು.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash ಖಾಸಗಿತನ-ಮೊದಲ ಬದಲಿ. ಖಾತೆ ಇಲ್ಲ. ಕ್ಲೌಡ್ ಇಲ್ಲ. ನಿಮ್ಮ ಸಂಗ್ರಹ ನಿಮ್ಮ ಸಾಧನ ಬಿಡುವುದಿಲ್ಲ.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "ನಿಮ್ಮ ನಂತರ-ಓದಿಯನ್ನು ಮರಳಿ ಪಡೆಯಿರಿ",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "ಒಂದೇ ಕ್ಲಿಕ್. ಶಾಶ್ವತವಾಗಿ ಉಳಿಸಲಾಗಿದೆ.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "ಟೂಲ್‌ಬಾರ್ ಐಕಾನ್ ಕ್ಲಿಕ್ ಮಾಡಿ ಅಥವಾ ಯಾವುದೇ ಪುಟದ ಮೇಲೆ ಬಲ-ಕ್ಲಿಕ್ ಮಾಡಿ. Read Stash ಶೀರ್ಷಿಕೆ, ಸಾರಾಂಶ, ಓದುವ ಸಮಯ ಮತ್ತು ಕವರ್ ಚಿತ್ರವನ್ನು ಎಳೆಯುತ್ತದೆ — ಎಲ್ಲವೂ ಸ್ಥಳೀಯವಾಗಿ.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "ಇದನ್ನು ಪ್ರಯತ್ನಿಸಿ — ಮಾದರಿ ಲೇಖನವನ್ನು ಉಳಿಸಿ",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "ಉಳಿಸಲಾಗಿದೆ!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "ಅರ್ಥವಾಯಿತು — ಟ್ಯಾಗ್ ಮಾಡುವುದು ಹೇಗೆ ತೋರಿಸಿ",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "ಇದನ್ನು ನಿಮ್ಮದಾಗಿಸಿ.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "ಡೀಫಾಲ್ಟ್ ಟ್ಯಾಗ್‌ಗಳು",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "ನೀವು ಉಳಿಸುವ ಪ್ರತಿ ಬಾರಿ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅನ್ವಯಿಸಲಾಗುತ್ತದೆ.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "ಥೀಮ್",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "ಪ್ರತಿ-ಡೊಮೇನ್ ವಿರಾಮ",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "ಈ ಡೊಮೇನ್‌ಗಳಲ್ಲಿ ಉಳಿಸುವ ಪ್ರಾಂಪ್ಟ್ ತೋರಿಸಬೇಡಿ. ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿ, ಅಥವಾ ಬಿಟ್ಟುಬಿಡಿ.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "ಉದಾ. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "ನನ್ನ ಆದ್ಯತೆಗಳನ್ನು ಉಳಿಸಿ",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "ಒಂದೇ ಪಾವತಿ. ಶಾಶ್ವತವಾಗಿ ನಿಮ್ಮದು.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 ಜೀವಮಾನ ಪರವಾನಗಿ.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7-ದಿನ ಉಚಿತ ಪ್ರಯೋಗ — ಪ್ರಾರಂಭಿಸಲು ಕಾರ್ಡ್ ಅಗತ್ಯವಿಲ್ಲ.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30-ದಿನ ಹಣ-ವಾಪಸಾತಿ ಖಾತರಿ.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "ಚಂದಾದಾರಿಕೆ ಇಲ್ಲ. ಪ್ರತಿ-ಸೀಟ್ ಇಲ್ಲ. ಪ್ರತಿ-ವರ್ಷ ಇಲ್ಲ.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "7-ದಿನ ಪ್ರಯೋಗ ಪ್ರಾರಂಭಿಸಿ",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "ಬಹುಶಃ ನಂತರ",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "ನಿಮ್ಮ ಸಂಗ್ರಹ ನಿಮ್ಮದು.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "ನಿಮ್ಮ ಮೊದಲ 3 ಲೇಖನಗಳನ್ನು ಟ್ಯಾಗ್ ಮಾಡಿ — ಟ್ಯಾಗ್ ಮಾಡಿದ ಸಂಗ್ರಹಗಳು ಆರು ತಿಂಗಳ ನಂತರ 10x ಹೆಚ್ಚು ಉಪಯುಕ್ತವಾಗಿರುತ್ತವೆ.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "ನನ್ನ ಗ್ರಂಥಾಲಯ ತೆರೆಯಿರಿ",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "ಹಿಂದೆ",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "ಮುಂದೆ",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "ಪುಟ $n$ ಗೆ ಹೋಗಿ",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

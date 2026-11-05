@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Read Stash — Library</title>
+  <link rel="stylesheet" href="../reads7984-base.css">
+  <link rel="stylesheet" href="library.css">
+</head>
+<body>
+  <div id="root" class="library-root">
+    <!-- Sidebar -->
+    <aside class="library-sidebar">
+      <div class="library-sidebar__search">
+        <input id="search-input" class="reads7984-input" type="search"
+               placeholder="__MSG_searchPlaceholder__" autocomplete="off" aria-label="Search">
+      </div>
+
+      <div class="library-sidebar__tags">
+        <h2 class="library-sidebar__heading">Tags</h2>
+        <div id="tag-filter" class="library-tag-list" role="group" aria-label="Filter by tag"></div>
+      </div>
+
+      <div class="library-sidebar__sort">
+        <label for="sort-select" class="library-sidebar__label">Sort</label>
+        <select id="sort-select" class="reads7984-input library-sidebar__select">
+          <option value="recent">Recent</option>
+          <option value="oldest">Oldest</option>
+          <option value="alpha">A–Z</option>
+          <option value="domain">Domain</option>
+        </select>
+      </div>
+
+      <div class="library-sidebar__filter">
+        <label class="library-sidebar__check">
+          <input id="show-archived" type="checkbox">
+          <span>Show archived</span>
+        </label>
+      </div>
+
+      <button id="export-btn" class="library-sidebar__export reads7984-btn reads7984-btn--secondary" type="button">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
+        </svg>
+        <span>__MSG_export__</span>
+      </button>
+    </aside>
+
+    <!-- Article list -->
+    <main class="library-main">
+      <header class="library-main__header">
+        <h1 class="library-main__title">Library</h1>
+        <button id="reader-close" class="library-main__close reads7984-btn reads7984-btn--ghost" type="button" hidden>
+          Close reader
+        </button>
+      </header>
+
+      <div id="article-list" class="library-list" role="list"></div>
+
+      <div id="load-more" class="library-load-more" hidden>
+        <button class="reads7984-btn reads7984-btn--ghost" type="button">Load more</button>
+      </div>
+
+      <!-- Empty state -->
+      <div id="empty-state" class="library-empty" hidden>
+        <div class="library-empty__icon" aria-hidden="true">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+          </svg>
+        </div>
+        <p class="library-empty__title">Save your first article</p>
+        <p class="library-empty__body">Click the Read Stash toolbar icon on any page to save it.</p>
+      </div>
+    </main>
+
+    <!-- Reader panel -->
+    <aside id="reader-panel" class="library-reader" hidden>
+      <header class="library-reader__header">
+        <h2 id="reader-title" class="library-reader__title"></h2>
+        <div id="reader-meta" class="library-reader__meta"></div>
+        <div class="library-reader__actions">
+          <a id="reader-original" class="reads7984-btn reads7984-btn--ghost library-reader__btn" href="#" target="_blank" rel="noopener noreferrer">
+            __MSG_openOriginal__
+          </a>
+          <button id="reader-archive" class="reads7984-btn reads7984-btn--secondary library-reader__btn" type="button">__MSG_archive__</button>
+          <button id="reader-delete" class="reads7984-btn reads7984-btn--ghost library-reader__btn" type="button">__MSG_delete__</button>
+        </div>
+      </header>
+      <div id="reader-tags" class="library-reader__tags"></div>
+      <div id="reader-content" class="library-reader__content"></div>
+    </aside>
+
+    <!-- Paywall container (mountPaywall target) -->
+    <div id="paywall-container" hidden></div>
+
+    <!-- Toast -->
+    <div id="toast" class="library-toast" role="status" aria-live="polite" hidden></div>
+  </div>
+
+  <script src="library.js"></script>
+</body>
+</html>

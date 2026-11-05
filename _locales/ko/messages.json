@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: 로컬 나중에 읽기, Pocket 대체",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "글을 저장하고 나중에 읽으세요. 태그, 검색, 리더 모드. 비공개 — 스태시는 기기를 떠나지 않아요. Pocket 대안.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "이 페이지를 Read Stash에 저장",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "현재 페이지를 Read Stash에 저장",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "이 페이지 저장",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "저장 중…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "스태시에 저장됨",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "저장 실패 — 다시 시도해 주세요",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "스태시 검색…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "전체 라이브러리 열기",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "스태시가 비어 있어요",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "첫 페이지를 저장해 보세요 — 위 버튼을 클릭하거나, 아무 페이지나 링크를 우클릭하세요.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "결과 없음",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "다른 태그나 검색어로 시도해 보세요.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "태그 추가 (쉼표로 구분)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$분 분량",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "$when$에 저장됨",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "보관",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "보관함으로 보내기",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "보관 해제",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "삭제",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "글이 삭제됨",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "실행 취소",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "읽기",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "원문 열기",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "내보내기",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Read Stash Pro 잠금 해제",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "기기 간 동기화 (메타데이터)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "JSON, Markdown, HTML로 내보내기",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "읽기 알림 (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Read Stash Pro로 업그레이드, $price$에 1회",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "한 번의 결제. 영원히 당신의 것.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "$count$개의 글을 스태시하셨어요. Pro는 모든 기기 간 동기화를 추가해 줍니다.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$일 무료 체험",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pro 받기 — $price$ 평생 라이선스",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$일 환불 보장. 구독 없음, 자동 갱신 없음, 데이터 수집 없음.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket이 종료되었습니다",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "나중에 읽기 라이브러리는 살아남을 자격이 있어요.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla가 2025년 7월 8일 Pocket을 종료했습니다. 수백만 명의 사용자가 하룻밤 사이에 나중에 읽기 라이브러리를 잃었어요. Mozilla는 3개월의 내보내기 기간을 제공했지만, 대부분이 놓쳤습니다.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash는 프라이버시 우선 대안입니다. 계정 없음. 클라우드 없음. 스태시는 기기를 떠나지 않아요.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "나중에 읽기를 되찾으세요",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "한 번의 클릭. 영원히 저장.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "툴바 아이콘을 클릭하거나 아무 페이지나 우클릭하세요. Read Stash가 제목, 요약, 읽기 시간, 표지 이미지를 추출합니다 — 모두 로컬에서요.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "체험하기 — 샘플 글 저장하기",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "저장됨",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "알겠어요 — 태그 사용법 보여줘요",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "나만의 스타일로.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "기본 태그",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "저장할 때마다 자동으로 적용됩니다.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "테마",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "도메인별 일시 정지",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "이 도메인에서는 저장 알림을 표시하지 않아요. 쉼표로 구분하거나, 비워 두셔도 돼요.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "예: mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "설정 저장",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "한 번의 결제. 영원히 당신의 것.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 평생 라이선스.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7일 무료 체험 — 시작할 때 카드가 필요 없어요.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30일 환불 보장.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "구독 없음. 사용자별 요금 없음. 연간 요금 없음.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "7일 체험 시작",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "나중에 할게요",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "스태시는 당신의 것입니다.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "첫 3개의 글에 태그를 지정해 보세요 — 태그가 있는 스태시는 6개월 후 훨씬 더 유용해져요.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "내 라이브러리 열기",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "뒤로",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "다음",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "$n$페이지로 이동",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

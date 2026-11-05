@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: قراءة لاحقة محلية، بديل Pocket",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "احفظ المقالات، اقرأها لاحقًا. وسوم، بحث، وضع القراءة. خاص — مجموعتك لا تغادر جهازك أبدًا. بديل Pocket.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "احفظ هذه الصفحة في Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "احفظ الصفحة الحالية في Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "احفظ هذه الصفحة",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "جارٍ الحفظ…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "تم الحفظ في مجموعتك",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "فشل الحفظ — حاول مرة أخرى",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "ابحث في مجموعتك…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "افتح المكتبة الكاملة",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "مجموعتك فارغة",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "احفظ صفحتك الأولى — انقر الزر أعلاه، أو انقر بزر الفأرة الأيمن على أي صفحة أو رابط.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "لا توجد نتائج",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "جرّب وسمًا أو كلمة بحث مختلفة.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "أضف وسومًا (مفصولة بفواصل)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ دقيقة قراءة",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "حُفظت $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "أرشفة",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "إرسال إلى الأرشيف",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "إلغاء الأرشفة",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "حذف",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "تم حذف المقال",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "تراجع",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "اقرأ",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "افتح المصدر الأصلي",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "تصدير",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "افتح Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "مزامنة عبر الأجهزة (البيانات الوصفية)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "التصدير إلى JSON وMarkdown وHTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "تذكيرات القراءة (D3، D7، D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "الترقية إلى Read Stash Pro مقابل $price$ مرة واحدة",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "دفعة واحدة. ملكك للأبد.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "لقد حفظت $count$ مقال. يضيف Pro المزامنة عبر جميع أجهزتك.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "تجربة مجانية لمدة $days$ يوم",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "احصل على Pro — $price$ مدى الحياة",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "ضمان استرداد الأموال لمدة $days$ يوم. بلا اشتراك، بلا تجديد، بلا جمع بيانات.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "اختفى Pocket",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "مكتبة القراءة لاحقًا تستحق أن تبقى.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "أوقفت Mozilla خدمة Pocket في 8 يوليو 2025. فقد ملايين المستخدمين مكتبة القراءة لاحقًا بين ليلة وضحاها. أتاحت Mozilla نافذة تصدير مدتها 3 أشهر — فاتت معظمهم.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash هو البديل الذي يضع الخصوصية أولًا. بلا حساب. بلا سحابة. مجموعتك لا تغادر جهازك أبدًا.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "استعد قراءتك اللاحقة",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "نقرة واحدة. محفوظة للأبد.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "انقر أيقونة شريط الأدوات أو انقر بزر الفأرة الأيمن على أي صفحة. يستخرج Read Stash العنوان والمقتطف ووقت القراءة وصورة الغلاف — كل ذلك محليًا.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "جرّبه — احفظ مقالًا تجريبيًا",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "تم الحفظ!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "فهمت — أرني كيفية إضافة الوسوم",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "اجعله خاصًا بك.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "الوسوم الافتراضية",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "تُطبَّق تلقائيًا في كل مرة تحفظ فيها.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "المظهر",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "إيقاف مؤقت حسب النطاق",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "لا تُظهر مطالبة الحفظ على هذه النطاقات. مفصولة بفواصل، أو تخطَّ.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "مثال: mail.google.com، example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "احفظ تفضيلاتي",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "دفعة واحدة. ملكك للأبد.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "ترخيص مدى الحياة مقابل $$99.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "تجربة مجانية لمدة 7 أيام — لا حاجة لبطاقة للبدء.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "ضمان استرداد الأموال لمدة 30 يومًا.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "بلا اشتراك. بلا رسوم لكل مقعد. بلا رسوم سنوية.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "ابدأ تجربة 7 أيام",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "ربما لاحقًا",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "مجموعتك ملكك.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "ضع وسومًا لأول 3 مقالات — المجموعات الموسومة أكثر فائدة بعشر مرات بعد ستة أشهر من الآن.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "افتح مكتبتي",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "رجوع",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "التالي",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "انتقل إلى الصفحة $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

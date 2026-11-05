@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: paikallinen lue myöhemmin, Pocket-korvaaja",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Tallenna artikkeleita, lue myöhemmin. Tunnisteet, haku, lukutila. Yksityinen — tallenne ei poistu laitteeltasi. Pocket-vaihtoehto.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Tallenna tämä sivu Read Stashiin",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Tallenna nykyinen sivu Read Stashiin",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Tallenna tämä sivu",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Tallennetaan…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Tallennettu tallenteeseesi",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "Tallennus epäonnistui — yritä uudelleen",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Hae tallenteestasi…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Avaa koko kirjasto",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "Tallenteesi on tyhjä",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Tallenna ensimmäinen sivusi — napsauta yllä olevaa painiketta tai napsauta hiiren oikealla painikkeella mitä tahansa sivua tai linkkiä.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Ei osumia",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Kokeile toista tunnistetta tai hakusanaa.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Lisää tunnisteita (pilkulla erotettuna)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ min lukuaika",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Tallennettu $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Arkistoi",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Lähetä arkistoon",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Poista arkistosta",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Poista",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Artikkeli poistettu",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Kumoa",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Lue",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Avaa alkuperäinen",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Vie",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Avaa Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Laitteiden välinen synkronointi (metatiedot)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Vie muotoihin JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Lukumuistutukset (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Päivitä Read Stash Prohon kertamaksulla $price$",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Yksi maksu. Sinun ikuisesti.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "Olet tallentanut $count$ artikkelia. Pro lisää synkronoinnin kaikkien laitteidesi välillä.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$ päivän ilmainen kokeilu",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Hanki Pro — $price$ elinikäinen",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$ päivän rahat-takaisin-takuu. Ei tilausta, ei uusimista, ei tietojen keräämistä.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket on poissa",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Lue myöhemmin -kirjastosi ansaitsee säilyä.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla lopetti Pocketin 8. heinäkuuta 2025. Miljoonat käyttäjät menettivät lue myöhemmin -kirjastonsa yhdessä yössä. Mozilla antoi kolmen kuukauden vientiajan — useimmat menettivät sen.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash on yksityisyyttä korostava korvaaja. Ei tiliä. Ei pilveä. Tallenteesi ei poistu koskaan laitteeltasi.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Ota lue myöhemmin -kokoelmasi takaisin",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Yksi napsautus. Tallennettu ikuisesti.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Napsauta työkalurivin kuvaketta tai napsauta hiiren oikealla painikkeella mitä tahansa sivua. Read Stash hakee otsikon, otteen, lukuajan ja kansikuvan — kaiken paikallisesti.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Kokeile — tallenna esimerkkiartikkeli",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Tallennettu!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Selvä — näytä, miten tunnisteita lisätään",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Tee siitä omasi.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Oletustunnisteet",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Otetaan käyttöön automaattisesti aina, kun tallennat.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Teema",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Verkkotunnuskohtainen tauko",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Älä näytä tallennuskehotetta näissä verkkotunnuksissa. Pilkulla erotettuna tai ohita.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "esim. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Tallenna asetukseni",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Yksi maksu. Sinun ikuisesti.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 elinikäinen lisenssi.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "7 päivän ilmainen kokeilu — aloittamiseen ei tarvita korttia.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "30 päivän rahat-takaisin-takuu.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Ei tilausta. Ei käyttäjäkohtaista maksua. Ei vuosimaksua.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "Aloita 7 päivän kokeilu",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Ehkä myöhemmin",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "Tallenteesi on sinun.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Lisää tunnisteita ensimmäisiin 3 artikkeliisi — tunnisteilla varustetut tallenteet ovat kuuden kuukauden kuluttua 10x hyödyllisempiä.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Avaa kirjastoni",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Takaisin",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Seuraava",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Siirry sivulle $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

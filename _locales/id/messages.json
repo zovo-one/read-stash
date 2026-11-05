@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: Baca Nanti Lokal, Pengganti Pocket",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "Simpan artikel, baca nanti. Tag, pencarian, mode pembaca. Privat — stash tak pernah keluar dari perangkat. Alternatif Pocket.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "Simpan halaman ini ke Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "Simpan halaman ini ke Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "Simpan halaman ini",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "Menyimpan…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "Tersimpan di stash Anda",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "Gagal menyimpan — coba lagi",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "Cari di stash Anda…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "Buka perpustakaan penuh",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "Stash Anda kosong",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "Simpan halaman pertama Anda — klik tombol di atas, atau klik kanan halaman atau tautan mana pun.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "Tidak ada hasil",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "Coba tag atau istilah pencarian lain.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "Tambahkan tag (dipisahkan koma)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ menit baca",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "Disimpan $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "Arsipkan",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "Kirim ke arsip",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "Batal arsip",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "Hapus",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "Artikel dihapus",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "Urungkan",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "Baca",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "Buka asli",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "Ekspor",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Buka Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "Sinkronisasi antar perangkat (metadata)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "Ekspor ke JSON, Markdown, HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "Pengingat baca (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "Tingkatkan ke Read Stash Pro seharga $price$ sekali bayar",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "Satu pembayaran. Milik Anda selamanya.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "Anda telah menyimpan $count$ artikel. Pro menambahkan sinkronisasi ke semua perangkat Anda.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "Uji coba gratis $days$ hari",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Dapatkan Pro — $price$ Seumur Hidup",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "Jaminan uang kembali $days$ hari. Tanpa langganan, tanpa perpanjangan, tanpa pengumpulan data.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket telah tiada",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "Perpustakaan baca-nanti Anda pantap bertahan.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla menutup Pocket pada 8 Juli 2025. Jutaan pengguna kehilangan perpustakaan baca-nanti mereka dalam semalam. Mozilla memberi jendela ekspor 3 bulan — kebanyakan melewatkannya.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash adalah pengganti yang mengutamakan privasi. Tanpa akun. Tanpa cloud. Stash Anda tak pernah keluar dari perangkat.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "Kembalikan baca-nanti Anda",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "Satu klik. Tersimpan selamanya.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "Klik ikon toolbar atau klik kanan halaman mana pun. Read Stash menarik judul, ringkasan, waktu baca, dan gambar sampul — semuanya secara lokal.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "Coba — simpan artikel contoh",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "Tersimpan!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "Mengerti — tunjukkan cara memberi tag",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "Sesuaikan sesuai keinginan Anda.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "Tag bawaan",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "Diterapkan otomatis setiap kali Anda menyimpan.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "Tema",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "Jeda per-domain",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "Jangan tampilkan prompt simpan di domain ini. Dipisahkan koma, atau lewati.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "mis. mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "Simpan preferensi saya",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "Satu pembayaran. Milik Anda selamanya.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 lisensi seumur hidup.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "Uji coba gratis 7 hari — tanpa kartu untuk mulai.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "Jaminan uang kembali 30 hari.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "Tanpa langganan. Tanpa per pengguna. Tanpa per tahun.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "Mulai uji coba 7 hari",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "Mungkin nanti",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "Stash Anda milik Anda.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "Beri tag pada 3 artikel pertama Anda — stash yang diberi tag 10x lebih berguna enam bulan ke depan.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "Buka perpustakaan saya",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "Kembali",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "Berikutnya",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "Ke halaman $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

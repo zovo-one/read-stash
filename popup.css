@@ -1,0 +1,222 @@
+/* ============================================================================
+ * popup.css — Read Stash popup styles
+ * Compact ~360px wide, ~480px tall.
+ * ========================================================================== */
+
+body {
+  width: 360px;
+  min-height: 480px;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 600px;
+}
+
+/* ---- Header --------------------------------------------------------------- */
+.popup-header {
+  display: flex;
+  align-items: center;
+  gap: var(--reads7984-space-2);
+  padding: var(--reads7984-space-3) var(--reads7984-space-4);
+  border-bottom: 1px solid var(--reads7984-border);
+}
+
+.popup-header__title {
+  font-size: var(--reads7984-fs-heading);
+  font-weight: 700;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.popup-header__badge {
+  font-size: var(--reads7984-fs-caption);
+  background: var(--reads7984-accent-soft);
+  color: var(--reads7984-accent-strong);
+  border: none;
+}
+
+.popup-header__badge--pro {
+  background: var(--reads7984-accent);
+  color: var(--reads7984-accent-fg);
+}
+
+.popup-header__gear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  color: var(--reads7984-text-secondary);
+  cursor: pointer;
+  border-radius: var(--reads7984-radius-sm);
+  transition: background 0.15s ease;
+}
+
+.popup-header__gear:hover {
+  background: var(--reads7984-surface-1);
+  color: var(--reads7984-text-primary);
+}
+
+/* ---- Save button ---------------------------------------------------------- */
+.popup-save {
+  margin: var(--reads7984-space-3) var(--reads7984-space-4) 0;
+  width: calc(100% - var(--reads7984-space-4) * 2);
+  justify-content: center;
+  font-weight: 600;
+  padding: var(--reads7984-space-3);
+}
+
+.popup-save--saving .popup-save__label::after {
+  content: '…';
+}
+
+.popup-save--saved {
+  background: var(--reads7984-good);
+}
+
+.popup-save--failed {
+  background: var(--reads7984-danger);
+}
+
+/* ---- Search --------------------------------------------------------------- */
+.popup-search {
+  margin: var(--reads7984-space-3) var(--reads7984-space-4) 0;
+  width: calc(100% - var(--reads7984-space-4) * 2);
+}
+
+/* ---- List ----------------------------------------------------------------- */
+.popup-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--reads7984-space-2) var(--reads7984-space-4);
+}
+
+.popup-list:empty {
+  display: none;
+}
+
+.popup-article {
+  display: flex;
+  flex-direction: column;
+  gap: var(--reads7984-space-1);
+  padding: var(--reads7984-space-3);
+  border-radius: var(--reads7984-radius-sm);
+  cursor: pointer;
+  border-bottom: 1px solid var(--reads7984-border);
+  transition: background 0.1s ease;
+}
+
+.popup-article:hover {
+  background: var(--reads7984-surface-1);
+}
+
+.popup-article:focus-visible {
+  outline: 2px solid var(--reads7984-accent);
+  outline-offset: -2px;
+}
+
+.popup-article__title {
+  font-size: var(--reads7984-fs-body);
+  font-weight: 600;
+  color: var(--reads7984-text-primary);
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.popup-article__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--reads7984-space-2);
+  font-size: var(--reads7984-fs-caption);
+  color: var(--reads7984-text-secondary);
+}
+
+.popup-article__domain {
+  font-weight: 500;
+}
+
+.popup-article__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--reads7984-space-1);
+  margin-top: var(--reads7984-space-1);
+}
+
+.popup-article__tag {
+  padding: 1px var(--reads7984-space-2);
+  border-radius: var(--reads7984-radius-pill);
+  font-size: 10px;
+  font-weight: 500;
+  background: var(--reads7984-surface-2);
+  color: var(--reads7984-text-primary);
+}
+
+/* ---- Paused badge --------------------------------------------------------- */
+.popup-article__paused {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 10px;
+  color: var(--reads7984-warn);
+}
+
+/* ---- Empty state ---------------------------------------------------------- */
+.popup-empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--reads7984-space-6) var(--reads7984-space-4);
+  gap: var(--reads7984-space-2);
+}
+
+.popup-empty__title {
+  font-size: var(--reads7984-fs-body);
+  font-weight: 600;
+  color: var(--reads7984-text-primary);
+}
+
+.popup-empty__body {
+  font-size: var(--reads7984-fs-caption);
+  color: var(--reads7984-text-secondary);
+  max-width: 240px;
+}
+
+/* ---- Footer --------------------------------------------------------------- */
+.popup-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--reads7984-space-2) var(--reads7984-space-4);
+  border-top: 1px solid var(--reads7984-border);
+}
+
+.popup-footer__link {
+  font-size: var(--reads7984-fs-caption);
+  color: var(--reads7984-accent-strong);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.popup-footer__link:hover {
+  text-decoration: underline;
+}
+
+.popup-footer__theme {
+  padding: var(--reads7984-space-1);
+  min-width: 28px;
+  min-height: 28px;
+  justify-content: center;
+}

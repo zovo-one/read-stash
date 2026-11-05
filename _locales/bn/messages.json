@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: লোকাল পরে-পড়ুন, Pocket বিকল্প",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "নিবন্ধ সংরক্ষণ করুন, পরে পড়ুন। ট্যাগ, অনুসন্ধান, রিডার মোড। ব্যক্তিগত — আপনার সংগ্রহ কখনও আপনার ডিভাইস ছাড়ে না। Pocket বিকল্প।",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "এই পৃষ্ঠাটি Read Stash-এ সংরক্ষণ করুন",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "বর্তমান পৃষ্ঠাটি Read Stash-এ সংরক্ষণ করুন",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "এই পৃষ্ঠাটি সংরক্ষণ করুন",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "সংরক্ষণ করা হচ্ছে…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "আপনার সংগ্রহে সংরক্ষিত হয়েছে",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "সংরক্ষণ ব্যর্থ — আবার চেষ্টা করুন",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "আপনার সংগ্রহে অনুসন্ধান করুন…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "সম্পূর্ণ লাইব্রেরি খুলুন",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "আপনার সংগ্রহ খালি",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "আপনার প্রথম পৃষ্ঠা সংরক্ষণ করুন — উপরের বোতামে ক্লিক করুন, বা যেকোনো পৃষ্ঠা বা লিঙ্কে ডান-ক্লিক করুন।",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "কোনো মিল নেই",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "একটি ভিন্ন ট্যাগ বা অনুসন্ধান শব্দ চেষ্টা করুন।",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "ট্যাগ যোগ করুন (কমা দিয়ে পৃথক)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ মিনিট পড়া",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "$when$ সংরক্ষিত",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "আর্কাইভ",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "আর্কাইভে পাঠান",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "আর্কাইভ থেকে সরান",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "মুছুন",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "নিবন্ধ মোছা হয়েছে",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "পূর্বাবস্থায় ফেরান",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "পড়ুন",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "মূল খুলুন",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "রপ্তানি",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "Read Stash Pro আনলক করুন",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "ডিভাইস-জুড়ে সিঙ্ক (মেটাডেটা)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "JSON, Markdown, HTML-এ রপ্তানি",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "পড়ার অনুস্মারক (D3, D7, D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "$price$-এ একবারে Read Stash Pro-তে আপগ্রেড করুন",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "একটি পেমেন্ট। চিরকাল আপনার।",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "আপনি $count$টি নিবন্ধ সংগ্রহ করেছেন। Pro আপনার সব ডিভাইস জুড়ে সিঙ্ক যোগ করে।",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "$days$-দিনের বিনামূল্যে ট্রায়াল",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "Pro নিন — $price$ আজীবন",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "$days$-দিনের অর্থ-ফেরত গ্যারান্টি। কোনো সাবস্ক্রিপশন নেই, কোনো নবায়ন নেই, কোনো ডেটা সংগ্রহ নেই।",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket আর নেই",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "আপনার পরে-পড়ুন লাইব্রেরি টিকে থাকার যোগ্য।",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla ৮ জুলাই, ২০২৫-এ Pocket বন্ধ করে দিয়েছে। লক্ষ লক্ষ ব্যবহারকারী রাতারাতি তাদের পরে-পড়ুন লাইব্রেরি হারিয়েছেন। Mozilla ৩ মাসের রপ্তানি সময় দিয়েছিল — বেশিরভাগই তা মিস করেছেন।",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash হল গোপনীয়তা-প্রথম বিকল্প। কোনো অ্যাকাউন্ট নেই। কোনো ক্লাউড নেই। আপনার সংগ্রহ কখনও আপনার ডিভাইস ছাড়ে না।",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "আপনার পরে-পড়ুন ফিরিয়ে নিন",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "এক ক্লিক। চিরকাল সংরক্ষিত।",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "টুলবার আইকনে ক্লিক করুন বা যেকোনো পৃষ্ঠায় ডান-ক্লিক করুন। Read Stash শিরোনাম, উদ্ধৃতাংশ, পড়ার সময় এবং কভার ছবি টেনে আনে — সবই স্থানীয়ভাবে।",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "চেষ্টা করুন — একটি নমুনা নিবন্ধ সংরক্ষণ করুন",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "সংরক্ষিত!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "বুঝেছি — কীভাবে ট্যাগ করতে হয় দেখান",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "এটিকে আপনার করে তুলুন।",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "ডিফল্ট ট্যাগ",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "প্রতিবার সংরক্ষণের সময় স্বয়ংক্রিয়ভাবে প্রয়োগ হয়।",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "থিম",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "ডোমেইন-অনুযায়ী বিরতি",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "এই ডোমেইনগুলিতে সংরক্ষণ প্রম্পট দেখাবেন না। কমা দিয়ে পৃথক, বা এড়িয়ে যান।",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "যেমন mail.google.com, example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "আমার পছন্দ সংরক্ষণ করুন",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "একটি পেমেন্ট। চিরকাল আপনার।",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "$$99 আজীবন লাইসেন্স।",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "৭-দিনের বিনামূল্যে ট্রায়াল — শুরু করতে কোনো কার্ডের প্রয়োজন নেই।",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "৩০-দিনের অর্থ-ফেরত গ্যারান্টি।",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "কোনো সাবস্ক্রিপশন নেই। প্রতি-সিট নেই। প্রতি-বছর নেই।",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "৭-দিনের ট্রায়াল শুরু করুন",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "হয়তো পরে",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "আপনার সংগ্রহ আপনারই।",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "আপনার প্রথম ৩টি নিবন্ধ ট্যাগ করুন — ছয় মাস পরে ট্যাগ করা সংগ্রহ ১০ গুণ বেশি উপযোগী।",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "আমার লাইব্রেরি খুলুন",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "পিছনে",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "পরবর্তী",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "$n$ নম্বর পৃষ্ঠায় যান",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

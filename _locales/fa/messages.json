@@ -1,0 +1,330 @@
+{
+  "extName": {
+    "message": "Read Stash: مطالعه بعدی محلی، جایگزین Pocket",
+    "description": "Extension name shown in the Chrome Web Store and Extensions page. Must be ≤75 chars."
+  },
+  "extDesc": {
+    "message": "مقاله‌ها را ذخیره کنید، بعداً بخوانید. برچسب، جستجو، حالت خواندن. خصوصی — مجموعه شما هرگز از دستگاهتان خارج نمی‌شود. جایگزین Pocket.",
+    "description": "Short description for the CWS listing. Must be ≤132 chars."
+  },
+  "actionTitle": {
+    "message": "ذخیره این صفحه در Read Stash",
+    "description": "Tooltip shown when hovering the toolbar icon."
+  },
+  "cmdSaveCurrent": {
+    "message": "ذخیره صفحه فعلی در Read Stash",
+    "description": "Description for the Alt+Shift+S keyboard command."
+  },
+  "popupTitle": {
+    "message": "Read Stash",
+    "description": "Header shown at the top of the popup."
+  },
+  "badgePro": {
+    "message": "Pro",
+    "description": "Pro tier badge."
+  },
+  "badgeFree": {
+    "message": "Free",
+    "description": "Free tier badge."
+  },
+  "saveThisPage": {
+    "message": "ذخیره این صفحه",
+    "description": "Button label in the popup that saves the active tab."
+  },
+  "saving": {
+    "message": "در حال ذخیره…",
+    "description": "Inline status shown while the page is being extracted."
+  },
+  "saved": {
+    "message": "در مجموعه شما ذخیره شد",
+    "description": "Confirmation shown after a successful save."
+  },
+  "saveFailed": {
+    "message": "ذخیره ناموفق بود — دوباره تلاش کنید",
+    "description": "Error shown when extraction or storage fails."
+  },
+  "searchPlaceholder": {
+    "message": "در مجموعه خود جستجو کنید…",
+    "description": "Placeholder in the popup and library search box."
+  },
+  "openFullLibrary": {
+    "message": "باز کردن کتابخانه کامل",
+    "description": "Link in the popup that opens the library tab."
+  },
+  "emptyLibraryTitle": {
+    "message": "مجموعه شما خالی است",
+    "description": "Headline shown when the library is empty."
+  },
+  "emptyLibraryBody": {
+    "message": "اولین صفحه خود را ذخیره کنید — روی دکمه بالا کلیک کنید، یا روی هر صفحه یا پیوندی راست‌کلیک کنید.",
+    "description": "Body text shown when the library is empty."
+  },
+  "emptySearchTitle": {
+    "message": "موردی یافت نشد",
+    "description": "Headline shown when search returns nothing."
+  },
+  "emptySearchBody": {
+    "message": "برچسب یا عبارت جستجوی دیگری را امتحان کنید.",
+    "description": "Body text shown when search returns nothing."
+  },
+  "tagInputPlaceholder": {
+    "message": "افزودن برچسب (جدا شده با ویرگول)",
+    "description": "Placeholder in the tag input at save time."
+  },
+  "readingTimeMin": {
+    "message": "$n$ دقیقه مطالعه",
+    "description": "Reading time estimate. $n$ is the minute count.",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "savedAtRelative": {
+    "message": "ذخیره شده $when$",
+    "description": "Relative time-since-saved label. $when$ is a relative time like '3 days ago'.",
+    "placeholders": {
+      "when": {
+        "content": "$1",
+        "example": "3 days ago"
+      }
+    }
+  },
+  "archive": {
+    "message": "بایگانی",
+    "description": "Action label for archiving an article."
+  },
+  "archiveAction": {
+    "message": "ارسال به بایگانی",
+    "description": "Tooltip on the archive button."
+  },
+  "unarchive": {
+    "message": "خروج از بایگانی",
+    "description": "Action label for un-archiving an article."
+  },
+  "delete": {
+    "message": "حذف",
+    "description": "Action label for deleting an article."
+  },
+  "deleted": {
+    "message": "مقاله حذف شد",
+    "description": "Toast shown after delete."
+  },
+  "undo": {
+    "message": "واگرد",
+    "description": "Label on the undo button in the delete toast."
+  },
+  "openReader": {
+    "message": "خواندن",
+    "description": "Action label for opening an article in reader mode."
+  },
+  "openOriginal": {
+    "message": "باز کردن نسخه اصلی",
+    "description": "Action label for opening the article's source URL."
+  },
+  "export": {
+    "message": "برون‌بری",
+    "description": "Action label for exporting the library."
+  },
+  "paywallTitle": {
+    "message": "باز کردن Read Stash Pro",
+    "description": "Headline shown at the top of the upgrade paywall."
+  },
+  "paywallFeatureSync": {
+    "message": "همگام‌سازی بین دستگاه‌ها (فراداده)",
+    "description": "Pro feature bullet: sync article metadata across devices."
+  },
+  "paywallFeatureExport": {
+    "message": "برون‌بری به JSON، Markdown، HTML",
+    "description": "Pro feature bullet: library export formats."
+  },
+  "paywallFeatureNudges": {
+    "message": "یادآوری‌های مطالعه (D3، D7، D14)",
+    "description": "Pro feature bullet: D3/D7/D14 reading reminder notifications."
+  },
+  "paywallCtaAria": {
+    "message": "ارتقا به Read Stash Pro با $price$ برای یک‌بار",
+    "description": "ARIA label on the upgrade CTA. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallSub": {
+    "message": "یک پرداخت. برای همیشه مال شما.",
+    "description": "Subtitle under the paywall title."
+  },
+  "paywallUsageHook": {
+    "message": "شما $count$ مقاله ذخیره کرده‌اید. Pro همگام‌سازی را در همه دستگاه‌های شما اضافه می‌کند.",
+    "description": "Usage-aware hook shown above the features list. $count$ is the article count from the local library.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
+  },
+  "paywallTrial": {
+    "message": "دوره آزمایشی رایگان $days$ روزه",
+    "description": "Trial pill on the paywall CTA. $days$ is the trial day count (e.g. 7).",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "7"
+      }
+    }
+  },
+  "paywallCta": {
+    "message": "دریافت Pro — $price$ مادام‌العمر",
+    "description": "Upgrade CTA button label. $price$ is the localized price string (e.g. $99).",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "$99"
+      }
+    }
+  },
+  "paywallGuarantee": {
+    "message": "ضمانت بازگشت وجه $days$ روزه. بدون اشتراک، بدون تمدید، بدون جمع‌آوری داده.",
+    "description": "Money-back guarantee line at the bottom of the paywall. $days$ is the day count.",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "30"
+      }
+    }
+  },
+  "onbP1Eyebrow": {
+    "message": "Pocket دیگر نیست",
+    "description": "Onboarding page 1 eyebrow label."
+  },
+  "onbP1Headline": {
+    "message": "کتابخانه مطالعه بعدی شما شایسته بقاست.",
+    "description": "Onboarding page 1 headline."
+  },
+  "onbP1Lede1": {
+    "message": "Mozilla در ۸ ژوئیه ۲۰۲۵ Pocket را تعطیل کرد. میلیون‌ها کاربر یک‌شبه کتابخانه مطالعه بعدی خود را از دست دادند. Mozilla یک بازه ۳ ماهه برای برون‌بری داد — بیشتر کاربران آن را از دست دادند.",
+    "description": "Onboarding page 1 first lede paragraph."
+  },
+  "onbP1Lede2": {
+    "message": "Read Stash جایگزینی است که حریم خصوصی را در اولویت قرار می‌دهد. بدون حساب کاربری. بدون فضای ابری. مجموعه شما هرگز از دستگاهتان خارج نمی‌شود.",
+    "description": "Onboarding page 1 second lede paragraph."
+  },
+  "onbP1Cta": {
+    "message": "مطالعه بعدی خود را پس بگیرید",
+    "description": "Onboarding page 1 primary CTA."
+  },
+  "onbP2Headline": {
+    "message": "یک کلیک. برای همیشه ذخیره شد.",
+    "description": "Onboarding page 2 headline."
+  },
+  "onbP2Lede": {
+    "message": "روی نماد نوار ابزار کلیک کنید یا روی هر صفحه‌ای راست‌کلیک کنید. Read Stash عنوان، چکیده، زمان مطالعه و تصویر جلد را می‌آورد — همه به‌صورت محلی.",
+    "description": "Onboarding page 2 lede."
+  },
+  "onbP2DemoBtn": {
+    "message": "امتحان کنید — یک مقاله نمونه ذخیره کنید",
+    "description": "Onboarding page 2 demo save button."
+  },
+  "onbP2Saved": {
+    "message": "ذخیره شد!",
+    "description": "Onboarding page 2 demo button text after click."
+  },
+  "onbP2Cta": {
+    "message": "متوجه شدم — نحوه برچسب‌گذاری را نشانم بده",
+    "description": "Onboarding page 2 primary CTA."
+  },
+  "onbP3Headline": {
+    "message": "آن را از آنِ خود کنید.",
+    "description": "Onboarding page 3 headline."
+  },
+  "onbP3TagsLabel": {
+    "message": "برچسب‌های پیش‌فرض",
+    "description": "Onboarding page 3 default-tags group label."
+  },
+  "onbP3TagsHint": {
+    "message": "هر بار که ذخیره می‌کنید به‌صورت خودکار اعمال می‌شود.",
+    "description": "Onboarding page 3 default-tags group hint."
+  },
+  "onbP3ThemeLabel": {
+    "message": "پوسته",
+    "description": "Onboarding page 3 theme group label."
+  },
+  "onbP3PauseLabel": {
+    "message": "توقف برای هر دامنه",
+    "description": "Onboarding page 3 per-domain pause group label."
+  },
+  "onbP3PauseHint": {
+    "message": "درخواست ذخیره را در این دامنه‌ها نشان نده. جدا شده با ویرگول، یا رد کنید.",
+    "description": "Onboarding page 3 per-domain pause group hint."
+  },
+  "onbP3PausePlaceholder": {
+    "message": "مثلاً mail.google.com، example.com",
+    "description": "Onboarding page 3 per-domain pause input placeholder."
+  },
+  "onbP3Cta": {
+    "message": "ذخیره تنظیمات من",
+    "description": "Onboarding page 3 primary CTA."
+  },
+  "onbP5Headline": {
+    "message": "یک پرداخت. برای همیشه مال شما.",
+    "description": "Onboarding page 5 headline."
+  },
+  "onbP5Point1": {
+    "message": "مجوز مادام‌العمر $$99.",
+    "description": "Onboarding page 5 offer bullet 1."
+  },
+  "onbP5Point2": {
+    "message": "دوره آزمایشی رایگان ۷ روزه — برای شروع نیازی به کارت نیست.",
+    "description": "Onboarding page 5 offer bullet 2."
+  },
+  "onbP5Point3": {
+    "message": "ضمانت بازگشت وجه ۳۰ روزه.",
+    "description": "Onboarding page 5 offer bullet 3."
+  },
+  "onbP5Point4": {
+    "message": "بدون اشتراک. بدون هزینه به‌ازای هر کاربر. بدون هزینه سالانه.",
+    "description": "Onboarding page 5 offer bullet 4."
+  },
+  "onbP5CtaPrimary": {
+    "message": "شروع دوره آزمایشی ۷ روزه",
+    "description": "Onboarding page 5 primary CTA."
+  },
+  "onbP5CtaSecondary": {
+    "message": "شاید بعداً",
+    "description": "Onboarding page 5 secondary CTA (dismiss offer)."
+  },
+  "onbP6Headline": {
+    "message": "مجموعه شما از آنِ شماست.",
+    "description": "Onboarding page 6 headline."
+  },
+  "onbP6Lede": {
+    "message": "سه مقاله اول خود را برچسب بزنید — مجموعه‌های برچسب‌خورده شش ماه بعد ۱۰ برابر مفیدتر هستند.",
+    "description": "Onboarding page 6 lede."
+  },
+  "onbP6CtaPrimary": {
+    "message": "باز کردن کتابخانه من",
+    "description": "Onboarding page 6 primary CTA."
+  },
+  "onbNavBack": {
+    "message": "بازگشت",
+    "description": "Onboarding nav previous-page button label."
+  },
+  "onbNavNext": {
+    "message": "بعدی",
+    "description": "Onboarding nav next-page button label."
+  },
+  "onbNavPageAria": {
+    "message": "رفتن به صفحه $n$",
+    "description": "Onboarding nav aria-label for page indicator dots. $n$ is the page number (1-6).",
+    "placeholders": {
+      "n": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}
